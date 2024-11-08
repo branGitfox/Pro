@@ -25,10 +25,10 @@ function App() {
         </div>
         {
           activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-blue-800 transition-all duration-200 ">
-            <div className='mb-5 hover:underline decoration-dashed '><a href=""></a>Home</div>
-            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>About Me</div>
-            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Skills</div>
-            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Projects</div>
+            <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Home</div>
+            <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>About Me</div>
+            <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Skills</div>
+            <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Projects</div>
             <button className='bg-blue-700 py-2 px-10 rounded text-white'>Contact</button>
 
         </div>)
