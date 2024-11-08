@@ -18,17 +18,20 @@ function App() {
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
                   <a className='hover:underline decoration-dashed' href="">About</a>
             </div>
-            <FaBars color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>
+            <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>
             <div className='hidden md:block'>  
                 <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Contact</button>
             </div>
         </div>
-        <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-[#4A76FD]">
-            <div className='mb-5'><a href=""></a>Home</div>
-            <div className='mb-5'><a href=""></a>Project</div>
-            <div className='mb-5'><a href=""></a>Skills</div>
-            <div className='mb-5'><a href=""></a>About</div>
-        </div>
+        {
+          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-[#4A76FD] transition-all duration-300 ">
+            <div className='mb-5 hover:underline decoration-dashed '><a href=""></a>Home</div>
+            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>About Me</div>
+            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Skills</div>
+            <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Projects</div>
+        </div>)
+        }
+      
     </div>
   )
 }
