@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars } from 'react-icons/fa6';
+import { FaBars, F } from 'react-icons/fa6';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
@@ -14,9 +14,9 @@ function App() {
             </div>
             <div className=' gap-10 font-semibold text-white hidden md:flex'>  
                 <a className='text-blue-800 hover:underline decoration-dashed decoration-blue-700 transition-all ' href="">Home</a>
-                <a className='hover:underline decoration-dashed' href="">Project</a>
+                <a className='hover:underline decoration-dashed' href="">About Me</a>
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
-                  <a className='hover:underline decoration-dashed' href="">About</a>
+                  <a className='hover:underline decoration-dashed' href="">Project</a>
             </div>
             <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>
             <div className='hidden md:block'>  
@@ -24,11 +24,13 @@ function App() {
             </div>
         </div>
         {
-          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-[#4A76FD] transition-all duration-300 ">
+          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-blue-800 transition-all duration-200 ">
             <div className='mb-5 hover:underline decoration-dashed '><a href=""></a>Home</div>
             <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>About Me</div>
             <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Skills</div>
             <div className='mb-5 hover:underline decoration-dashed'><a href=""></a>Projects</div>
+            <button className='bg-blue-700 py-2 px-10 rounded text-white'>Contact</button>
+
         </div>)
         }
       
