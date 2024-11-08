@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX } from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaGithub } from 'react-icons/fa6';
+import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
@@ -32,6 +33,23 @@ function App() {
             <button className='bg-blue-700 py-2 px-10 rounded text-white'>Contact</button>
         </div>)
         }
+
+        <div className="w-[100%]  flex flex-col align-center p-5 relative  top-40">
+            <div className="mt-3 text-center">
+                <h3 className='text-white font-semibold text-lg'>Hi, i'm <span className='underline decoration-dotted decoration-blue-500'>Brandon</span></h3>
+            </div>
+            <div className="mt-8 text-center">
+                <h3 className='text-white font-bold text-[2.5rem] md:text-[3rem]'>Full-Stack Developer</h3>
+            </div>
+            <div className="mt-8 text-center md:w-[600px] m-auto">
+                <p className="text-light text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
+            </div>
+            <div className="mt-8 text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
+                <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>Contact<FaUserAstronaut className='inline mx-3'/></a>
+                <a  href='' className='border border-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>Contact<GitHub className='inline mx-3'/></a>
+                
+            </div>
+        </div>
       
     </div>
   )
