@@ -45,8 +45,8 @@ function App() {
                 <p className="text-light text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
             <div className="mt-8 text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
-                <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>Contact<FaUserAstronaut className='inline mx-3'/></a>
-                <a  href='' className='border border-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>Contact<GitHub className='inline mx-3'/></a>
+                <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>Hire Me<FaUserAstronaut className='inline mx-3'/></a>
+                <a  href='' className='border border-blue-700 py-4 shadow-md shadow-blue-600 px-10 rounded font-bold text-white'>GitHub<GitHub className='inline mx-3'/></a>
                 
             </div>
         </div>
