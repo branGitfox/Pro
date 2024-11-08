@@ -35,7 +35,7 @@ function App() {
         }
 
         <div className="w-[100%]  flex flex-col align-center p-5 relative  top-40">
-            <div className="mt-3 text-center">
+            <div className="mt-8 text-center">
                 <h3 className='text-white font-semibold text-lg'>Hi, i'm <span className='underline decoration-dotted decoration-blue-500'>Brandon</span></h3>
             </div>
             <div className="mt-8 text-center">
@@ -50,7 +50,9 @@ function App() {
                 
             </div>
         </div>
-      
+      <div className="absolute top-[843px] h-[120px] bg-black w-[100%]">
+          hhh
+      </div>
     </div>
   )
 }
