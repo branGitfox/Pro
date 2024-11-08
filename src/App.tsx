@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import br from '/br.jpg'
 import { FaBars, FaX, FaUserAstronaut, FaGithub } from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
