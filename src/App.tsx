@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import br from '/br.jpg'
-import {FaBars} from 'react-icons/fa6'
+import { FaBars } from 'react-icons/fa6';
 function App() {
+  const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
 
     <div className="container sm relative flex justify-center m-auto">
@@ -17,10 +18,16 @@ function App() {
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
                   <a className='hover:underline decoration-dashed' href="">About</a>
             </div>
-            <FaBars color='#4A76FD' size={30} className='md:hidden sm:inline'/>
+            <FaBars color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>
             <div className='hidden md:block'>  
                 <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Contact</button>
             </div>
+        </div>
+        <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-[#4A76FD]">
+            <div className='mb-5'><a href=""></a>Home</div>
+            <div className='mb-5'><a href=""></a>Project</div>
+            <div className='mb-5'><a href=""></a>Skills</div>
+            <div className='mb-5'><a href=""></a>About</div>
         </div>
     </div>
   )
