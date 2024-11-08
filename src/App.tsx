@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, F } from 'react-icons/fa6';
+import { FaBars, FaX } from 'react-icons/fa6';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
@@ -18,7 +18,7 @@ function App() {
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
                   <a className='hover:underline decoration-dashed' href="">Project</a>
             </div>
-            <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>
+            {activeMenu?(<FaX onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>): <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>}
             <div className='hidden md:block'>  
                 <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Contact</button>
             </div>
@@ -30,7 +30,6 @@ function App() {
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Skills</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Projects</div>
             <button className='bg-blue-700 py-2 px-10 rounded text-white'>Contact</button>
-
         </div>)
         }
       
