@@ -1,6 +1,6 @@
 import React from 'react'
 import br from '/br.jpg'
-import { FaBurger } from 'react-icons/fa6'
+import {FaBars} from 'react-icons/fa6'
 function App() {
   return (
 
@@ -17,7 +17,7 @@ function App() {
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
                   <a className='hover:underline decoration-dashed' href="">About</a>
             </div>
-            <FaBurger className='md:hidden sm:inline'/>
+            <FaBars color='#4A76FD' size={30} className='md:hidden sm:inline'/>
             <div className='hidden md:block'>  
                 <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Contact</button>
             </div>
