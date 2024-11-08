@@ -7,10 +7,10 @@ function App() {
 
     <div className="container sm relative flex justify-center m-auto">
 
-        <div className='bg-blue-950  w-[100%] absolute container border rounded-xl border-blue-900 shadow-sm top-6 m-auto p-6 flex  justify-between items-center'>
+        <div className='bg-blue-900  w-[100%] absolute container border rounded-xl border-blue-900 shadow-sm top-6 m-auto p-6 flex  justify-between items-center'>
             <div className='flex gap-4'>  
                 <img src={br} className='w-10 h-10' alt="" />
-                <h3 className='text-3xl font-bold text-white'>Brandon</h3>
+                <h3 className='text-3xl font-bold text-white'>Brandon.</h3>
             </div>
             <div className=' gap-10 font-semibold text-white hidden md:flex'>  
                 <a className='text-blue-800 hover:underline decoration-dashed decoration-blue-700 transition-all ' href="">Home</a>
@@ -24,7 +24,7 @@ function App() {
             </div>
         </div>
         {
-          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7rem] rounded-md bg-blue-800 transition-all duration-200 ">
+          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7.5rem] rounded-md bg-blue-800 transition-all duration-200 ">
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Home</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>About Me</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Skills</div>
