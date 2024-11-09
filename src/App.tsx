@@ -71,7 +71,7 @@ function App() {
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
                 <div className="w-[500px] bg-red-500 overflow-hidden h-auto mt-5">
-                    <img src={me} className='w-[100%] h-auto overflow-x-hidden' alt="my profil picture..." />
+                    <img src={me} className='w-[100%] h-[250px]' alt="my profil picture..." />
                 </div>
                 <div className="w-[500px] ">
                     <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
@@ -124,7 +124,7 @@ function App() {
                 
             </div>
         </div>
-        <div className="absolute top-[2000px] md:top-[1000px] lg:top-[1800px] w-[100%]">
+        <div className="absolute top-[2200px] md:top-[1000px] lg:top-[1800px] w-[100%]">
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Projects</h3>
             <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
             <div className="mt-3 text-center md:w-[600px] m-auto">
@@ -171,8 +171,8 @@ function App() {
             </div>
         </div>
         
-        <hr className='absolute top-[3600px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
-        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[3600px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
+        <hr className='absolute top-[3800px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
+        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[3800px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
                 <div className="w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
@@ -207,7 +207,7 @@ function App() {
 
                 </div>
         </div>
-        <footer className='absolute top-[4400px] w-[100%] md:top-[3000px]'>
+        <footer className='absolute top-[4600px] w-[100%] md:top-[3000px]'>
             <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
         </footer>
     </div>
