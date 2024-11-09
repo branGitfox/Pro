@@ -1,6 +1,7 @@
 import { AnimateOnScroll } from "animate-on-scroll-framer"
-import { Settings } from "@mui/icons-material"
-import { FaLink, FaArrowRight } from "react-icons/fa6"
+import { Settings, Title } from "@mui/icons-material"
+import { FaArrowRight } from "react-icons/fa6"
+import ProjectCard from "./ProjectCard"
 
 
 function Project() {
@@ -14,39 +15,7 @@ function Project() {
                 <p className="text-light  text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
             <div className="mt-11 flex flex-wrap w-[100%] gap-y-4 justify-evenly">
-            <div className="w-[320px] h-[380px] rounded-lg bg-gray-900 p-4">
-                        <img src="" className='w-[100%] h-[55%] rounded-lg' alt="" />
-                        <h2 className='text-white font-bold mt-3 '>PHP-NTL-Library</h2>
-                        <p className="mt-2 font-light
-                        text-white">
-                           obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
-                        </p>
-                        <div className="mt-3">
-                            <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
-                        </div>
-                </div>
-                <div className="w-[320px] h-[380px] rounded-lg bg-gray-900 p-4">
-                        <img src="" className='w-[100%] h-[55%] rounded-lg' alt="" />
-                        <h2 className='text-white font-bold mt-3 '>PHP-NTL-Library</h2>
-                        <p className="mt-2 font-light
-                        text-white">
-                           obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
-                        </p>
-                        <div className="mt-3">
-                            <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
-                        </div>
-                </div>
-                <div className="w-[320px] h-[380px] rounded-lg bg-gray-900 p-4">
-                        <img src="" className='w-[100%] h-[55%] rounded-lg' alt="" />
-                        <h2 className='text-white font-bold mt-3 '>PHP-NTL-Library</h2>
-                        <p className="mt-2 font-light
-                        text-white">
-                           obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
-                        </p>
-                        <div className="mt-3">
-                            <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
-                        </div>
-                </div>
+                <ProjectCard title={'gg'} img="rr" link="frf" infos={'df'}/>
             </div>
             </AnimateOnScroll>
             <div className="mt-10 flex justify-center">
