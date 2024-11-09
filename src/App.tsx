@@ -6,7 +6,7 @@ function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
 
-    <div className="container sm relative flex justify-center m-auto">
+    <div className="container sm relative flex justify-center m-auto overflow-x-hidden">
 
         <div className='bg-blue-900  w-[100%] absolute container border rounded-xl border-blue-900 shadow-sm top-6 m-auto p-6 flex  justify-between items-center'>
             <div className='flex gap-4'>  
@@ -82,7 +82,7 @@ function App() {
                 <div className="mt-[5rem] w-[100%]">
                     <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Skills</h3>
                     <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>All Skills</h2>
-                    <div className="w-[400px] md:w-[450px] mt-3 m-auto">
+                    <div className="w-[100%] md:w-[450px] mt-3 m-auto">
                         <p className='text-center text-light text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus facilis repudiandae architecto, praesentium sapiente delectus repellat earum enim laborum tenetur unde eos impedit pariatur molestiae voluptatum iusto rem reiciendis sit?</p>
                     </div>
                     <div className="mt-5 flex  w-[100%] md:w-[700px] m-auto flex-wrap gap-4 justify-evenly">
