@@ -64,7 +64,7 @@ function App() {
                     <p className='text-white font-light'>Commits</p>
             </div>
       </div>
-        <div className='w-[100%] absolute top-[900px] p-5 md:top-[980px]'>
+        <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
                 <div className="w-[500px] bg-red-500">
