@@ -34,7 +34,7 @@ function App() {
         </div>)
         }
 
-        <div className="w-[100%]  flex flex-col align-center p-5 relative  top-40">
+        <div className="w-[100%]  flex flex-col align-center p-5 relative top-[8rem] md:top-40">
             <div className="mt-8 text-center">
                 <h3 className='text-white font-semibold text-lg'>Hi, i'm <span className='underline decoration-dotted decoration-blue-500'>Brandon</span></h3>
             </div>
@@ -42,7 +42,7 @@ function App() {
                 <h3 className='text-white font-bold text-[2rem] md:text-[3rem]'>Full-Stack Developer</h3>
             </div>
             <div className="mt-8 text-center md:w-[600px] m-auto">
-                <p className="text-light text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
+                <p className="text-light md:text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
             <div className="mt-8 text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
                 <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'>Hire Me<FaUserAstronaut className='inline mx-3'/></a>
@@ -50,7 +50,7 @@ function App() {
                 
             </div>
         </div>
-      <div className="absolute top-[843px] h-[120px] bg-black w-[100%]">
+      <div className="absolute top-[650px] md:top-[843px] h-[120px] bg-black w-[100%]">
           hhh
       </div>
     </div>
