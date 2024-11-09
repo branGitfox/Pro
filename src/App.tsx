@@ -121,7 +121,7 @@ function App() {
                 
             </div>
         </div>
-        <div className="absolute top-[1800px] w-[100%]">
+        <div className="absolute top-[2000px] md:top-[1000px] lg:top-[1800px] w-[100%]">
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Projects</h3>
             <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
             <div className="mt-3 text-center md:w-[600px] m-auto">
