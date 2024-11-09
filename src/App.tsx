@@ -5,8 +5,9 @@ import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
+<>
 
-    <div className="container sm relative flex justify-center m-auto">
+<div className="container sm relative flex justify-center m-auto">
 
         <div className='bg-blue-900  w-[100%] absolute container border rounded-xl border-blue-900 shadow-sm top-6 m-auto p-6 flex  justify-between items-center'>
             <div className='flex gap-4'>  
@@ -167,7 +168,11 @@ function App() {
                 
             </div>
         </div>
+        
+        <hr className='absolute top-[3600px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
     </div>
+</>
+    
   )
 }
 
