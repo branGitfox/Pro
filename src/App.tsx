@@ -3,6 +3,7 @@ import br from '/br.jpg'
 import me from './assets/me.jpg'
 import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright} from 'react-icons/fa6';
 import { Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube } from '@mui/icons-material';
+import {AnimateOnScroll} from 'animate-on-scroll-framer'
 
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -67,7 +68,10 @@ function App() {
                     <p className='text-white font-light'>Commits</p>
             </div>
       </div>
+   
         <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
+        <AnimateOnScroll animation='fadeInUp' duration={4}>
+        
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
                 <div className="w-[500px]  overflow-hidden h-auto mt-5">
@@ -83,6 +87,7 @@ function App() {
                     </p>
                 </div>
                 <div className="mt-[5rem] w-[100%]">
+                    <AnimateOnScroll duration={4} animation='fadeInUp'>
                     <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Skills</h3>
                     <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>All Skills</h2>
                     <div className="w-[100%] md:w-[450px] mt-3 m-auto">
@@ -119,13 +124,16 @@ function App() {
                          
                     </div>
                     
-
+                    </AnimateOnScroll>
                 </div>
                 
             </div>
+        </AnimateOnScroll>
+
         </div>
-        <div className="absolute top-[2200px] md:top-[1000px] lg:top-[1800px] w-[100%]">
-            <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Projects</h3>
+        <div className="absolute top-[2200px] md:top-[1000px] lg:top-[1800px] w-[100%]" >
+            <AnimateOnScroll duration={4} animation='fadeInUp'>
+            <h3 className='text-white font-medium text-center underline decoration-blue-600 ' >My Projects</h3>
             <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
             <div className="mt-3 text-center md:w-[600px] m-auto">
                 <p className="text-light  text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
@@ -165,6 +173,7 @@ function App() {
                         </div>
                 </div>
             </div>
+            </AnimateOnScroll>
             <div className="mt-10 flex justify-center">
             <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'> See More<FaArrowRight className='inline mx-3'/></a>
                 
