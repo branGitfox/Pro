@@ -72,6 +72,12 @@ function App() {
                 </div>
                 <div className="w-[500px] ">
                     <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
+                    <p className='font-semibold mt-3'>l
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt suscipit dolor quasi et officia minima harum praesentium nulla id odio qui vero cupiditate beatae tempora, a soluta numquam? Quae, blanditiis!
+                    </p>
+                    <p className='font-semibold mt-3'>l
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt suscipit dolor quasi et officia minima harum praesentium nulla id odio qui vero cupiditate beatae tempora, a soluta numquam? Quae, blanditiis!
+                    </p>
                 </div>
             </div>
         </div>
