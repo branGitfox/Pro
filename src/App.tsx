@@ -1,6 +1,6 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut } from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaReact } from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -92,6 +92,28 @@ function App() {
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">versioning</button>
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Hosting</button>
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Tools</button>
+                    </div>
+                    <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">
+                            <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
+                                <FaReact color='blue' size={40}/>
+                                <p className='text-white mt-2 '>React</p>
+                            </div>
+                            <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
+                                <FaReact color='blue' size={40}/>
+                                <p className='text-white mt-2 '>React</p>
+                            </div>       <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
+                                <FaReact color='blue' size={40}/>
+                                <p className='text-white mt-2 '>React</p>
+                            </div>
+                            <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
+                                <FaReact color='blue' size={40}/>
+                                <p className='text-white mt-2 '>React</p>
+                            </div>
+                            <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
+                                <FaReact color='blue' size={40}/>
+                                <p className='text-white mt-2 '>React</p>
+                            </div>
+                         
                     </div>
                 </div>
             </div>
