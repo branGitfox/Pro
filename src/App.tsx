@@ -50,20 +50,31 @@ function App() {
                 
             </div>
         </div>
-      <div className="absolute top-[650px] grid grid-cols-3 bg-gray-900  md:top-[843px] h-[120px] bg-black w-[100%] p-4">
+      <div className="absolute top-[650px] grid grid-cols-3 bg-gray-900  md:top-[843px] h-[120px]  w-[100%] p-4">
             <div className="flex flex-col items-center justify-center border-r-2 border-blue-600">
                     <p className='font-bold text-xl text-gray-300 '>40</p>
                     <p className='text-white font-light'>Repository</p>
             </div>
             <div className="flex flex-col  items-center justify-center border-r-2 border-blue-600">
                     <p className='font-bold text-xl text-gray-300 '>40</p>
-                    <p className='text-white font-light'>Repository</p>
+                    <p className='text-white font-light'>Stars</p>
             </div>
             <div className="flex flex-col  items-center justify-center ">
                     <p className='font-bold text-xl text-gray-300 '>40</p>
-                    <p className='text-white font-light'>Repository</p>
+                    <p className='text-white font-light'>Commits</p>
             </div>
       </div>
+        <div className='w-[100%] absolute top-[900px] p-5 md:top-[980px]'>
+            <h3 className='text-white font-medium text-center'>About Me</h3>
+            <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
+                <div className="w-[500px] bg-red-500">
+                    <img src="" className='w-[100%] h-auto' alt="my profil picture..." />
+                </div>
+                <div className="w-[500px] ">
+                    <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }
