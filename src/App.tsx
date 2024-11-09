@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaGithub } from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut } from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
