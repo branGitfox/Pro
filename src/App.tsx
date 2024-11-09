@@ -1,8 +1,8 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright, FaLinkedin, FaMessage} from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright} from 'react-icons/fa6';
 import { Facebook, GitHub, LinkedIn, Mail, Phone, WhatsApp, YouTube } from '@mui/icons-material';
-import { GiMailbox } from 'react-icons/gi';
+
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
   return (
