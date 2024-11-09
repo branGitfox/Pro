@@ -90,6 +90,7 @@ function App() {
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Back-End</button>
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Database</button>
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">versioning</button>
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Hosting</button>
                         <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Tools</button>
                     </div>
                 </div>
