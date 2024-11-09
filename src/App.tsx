@@ -44,7 +44,7 @@ function App() {
             <div className="mt-8 text-center md:w-[600px] m-auto">
                 <p className="text-light md:text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
-            <div className="mt-8 text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
+            <div className="mt-[5rem] text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
                 <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'>Hire Me<FaUserAstronaut className='inline mx-3'/></a>
                 <a  href='' className='border border-blue-700 py-4 shadow-md shadow-blue-600 px-3  md:px-10 rounded font-bold text-white'>GitHub<GitHub className='inline mx-3'/></a>
                 
@@ -65,19 +65,22 @@ function App() {
             </div>
       </div>
         <div className='w-[100%] absolute top-[900px] p-5 md:top-[980px]'>
-            <h3 className='text-white font-medium text-center'>About Me</h3>
+            <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
                 <div className="w-[500px] bg-red-500">
                     <img src="" className='w-[100%] h-auto' alt="my profil picture..." />
                 </div>
                 <div className="w-[500px] ">
                     <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
-                    <p className='font-semibold mt-3'>l
+                    <p className='font-semibold mt-3'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt suscipit dolor quasi et officia minima harum praesentium nulla id odio qui vero cupiditate beatae tempora, a soluta numquam? Quae, blanditiis!
                     </p>
-                    <p className='font-semibold mt-3'>l
+                    <p className='font-semibold mt-3'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt suscipit dolor quasi et officia minima harum praesentium nulla id odio qui vero cupiditate beatae tempora, a soluta numquam? Quae, blanditiis!
                     </p>
+                </div>
+                <div className="mt-[5rem] w-[100%]">
+                    <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Skills</h3>
                 </div>
             </div>
         </div>
