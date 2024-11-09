@@ -1,8 +1,8 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
 import me from './assets/me.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright} from 'react-icons/fa6';
-import { AirplaneTicket, Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube, Code, Settings } from '@mui/icons-material';
+import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright, FaPaperPlane} from 'react-icons/fa6';
+import {  Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube, Code, Settings } from '@mui/icons-material';
 import {AnimateOnScroll} from 'animate-on-scroll-framer'
 
 function App() {
@@ -49,7 +49,7 @@ function App() {
                 <p className="text-light md:text-xl text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
             <div className="mt-[5rem] text-center md:w-[400px] m-auto flex flex-row gap-3 justify-between">
-                <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'>Hire Me<FaUserAstronaut size={20} className='inline mx-3'/></a>
+                <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'>Hire Me<FaPaperPlane size={20} className='inline mx-3'/></a>
                 <a  href='' className='border border-blue-700 py-4 shadow-md shadow-blue-600 px-3  md:px-10 rounded font-bold text-white'>GitHub<GitHub className='inline mx-3'/></a>
                 
             </div>
