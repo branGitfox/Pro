@@ -85,6 +85,13 @@ function App() {
                     <div className="w-[400px] md:w-[450px] mt-3 m-auto">
                         <p className='text-center text-light text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus facilis repudiandae architecto, praesentium sapiente delectus repellat earum enim laborum tenetur unde eos impedit pariatur molestiae voluptatum iusto rem reiciendis sit?</p>
                     </div>
+                    <div className="mt-5 flex  w-[100%] md:w-[700px] m-auto flex-wrap gap-4 justify-evenly">
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl bg-blue-600  text-white hover:bg-blue-600">Front-End</button>
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Back-End</button>
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Database</button>
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">versioning</button>
+                        <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">Tools</button>
+                    </div>
                 </div>
             </div>
         </div>
