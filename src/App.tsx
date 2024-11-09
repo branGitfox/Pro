@@ -135,7 +135,7 @@ function App() {
                         text-white">
                            obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
                         </p>
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
                         </div>
                 </div>
@@ -146,7 +146,7 @@ function App() {
                         text-white">
                            obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
                         </p>
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
                         </div>
                 </div>
@@ -157,7 +157,7 @@ function App() {
                         text-white">
                            obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!
                         </p>
-                        <div className="mt-5">
+                        <div className="mt-3">
                             <a href="" className="text-blue-600">View project <FaLink className='inline mx-2'/></a>
                         </div>
                 </div>
