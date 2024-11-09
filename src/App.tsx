@@ -190,7 +190,7 @@ function App() {
                         </ul>
                 </div>
         </div>
-        <footer className='absolute top-[4270px] w-[100%] md:top-[3000px]'>
+        <footer className='absolute top-[4400px] w-[100%] md:top-[3000px]'>
             <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
         </footer>
     </div>
