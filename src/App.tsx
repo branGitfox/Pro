@@ -77,8 +77,8 @@ function App() {
                 <div className="w-[500px]  overflow-hidden h-auto mt-5">
                     <img src={me} className='w-[100%] h-[250px]' alt="my profil picture..." />
                 </div>
-                <div className="w-[500px] ">
-                    <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
+                <div className="w-[500px] mt-3 ">
+                    <h2 className='font-bold text-white text-3xl md:text-4xl text-center'>Ravomanana Brandon Fidelin</h2>
                     <p className='font-semibold mt-3'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt suscipit dolor quasi et officia minima harum praesentium nulla id odio qui vero cupiditate beatae tempora, a soluta numquam? Quae, blanditiis!
                     </p>
