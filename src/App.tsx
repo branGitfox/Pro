@@ -1,7 +1,7 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
 import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright, FaLinkedin, FaMessage} from 'react-icons/fa6';
-import { Facebook, GitHub, LinkedIn, Mail, YouTube } from '@mui/icons-material';
+import { Facebook, GitHub, LinkedIn, Mail, Phone, WhatsApp, YouTube } from '@mui/icons-material';
 import { GiMailbox } from 'react-icons/gi';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -183,12 +183,6 @@ function App() {
                 </div>
                 <div className=" w-[100%] md:w-[500px] flex-col items-center">
                         <h2 className='text-white text-4xl font-bold'>Let's Connect In...</h2>
-                        {/* <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
-                        <ul className='mt-4'>
-                            <li  className='mb-4'><FaEarthEurope size={30} className='text-blue-600'/></li>
-                            <li className='mb-4'><FaToolbox size={30} className='text-orange-600' /></li>
-                            <li className='mb-4'><FaMobile size={30} className='text-green-600' /></li>
-                        </ul> */}
                         <div className="mt-3 flex justify-between flex-wrap gap-2">
                             <a href="" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><LinkedIn className='inline mx-2 text-blue-600'/>LinkedIn</a>
                             <a href="" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><GitHub className='inline mx-2'/>Github</a>
@@ -196,9 +190,18 @@ function App() {
                             <a href="" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><YouTube  className='inline mx-2 text-red-700'/>Youtube</a>
                         </div>
                         <h2 className='text-white text-4xl font-bold mt-3'>My Contact Information</h2>
-                        <div className="mt-2 flex justify-center">
-                            <div className="w-[200px] h-[100px] bg-blue-600"></div>
-                            <div className="w-[200px] h-[100px] bg-blue-600"></div>
+                        <div className="mt-2 flex justify-start">
+                            <div className="w-[200px] h-[100px] bg-blue-600 flex-col  justify-center items-center p-3 rounded-md">
+                                <Mail className='text-white block '/>
+                                <h3 className='text-white font-semibold'>Email Address</h3>
+                                <p className='text-white font-bold'>Vixfgit@gmail.com</p>
+                            </div>
+                            <div className="w-[200px] h-[100px] bg-blue-600 flex-col justify-center items-center p-3 rounded-md">
+                            <WhatsApp className='text-white block'/>
+                                <h3 className='text-white font-semibold'>Whatsapp</h3>
+                                <p className='text-white font-bold'>+261 389411835</p>
+                                </div>
+                           
                         </div>
 
                 </div>
