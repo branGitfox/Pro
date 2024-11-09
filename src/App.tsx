@@ -70,7 +70,7 @@ function App() {
         <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
-                <div className="w-[500px] bg-red-500 overflow-hidden h-auto mt-5">
+                <div className="w-[500px]  overflow-hidden h-auto mt-5">
                     <img src={me} className='w-[100%] h-[250px]' alt="my profil picture..." />
                 </div>
                 <div className="w-[500px] ">
@@ -191,13 +191,13 @@ function App() {
                             <a href="" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><YouTube  className='inline mx-2 text-red-700'/>Youtube</a>
                         </div>
                         <h2 className='text-white text-4xl font-bold mt-3'>My Contact Information</h2>
-                        <div className="mt-2 flex justify-start">
+                        <div className="mt-2 flex justify-start gap-1">
                             <div className="w-[200px] h-[100px] bg-blue-600 flex-col  justify-center items-center p-3 rounded-md">
                                 <Mail className='text-white block '/>
                                 <h3 className='text-white font-semibold'>Email Address</h3>
                                 <p className='text-white font-bold'>Vixfgit@gmail.com</p>
                             </div>
-                            <div className="w-[200px] h-[100px] bg-blue-600 flex-col justify-center items-center p-3 rounded-md">
+                            <div className="w-[200px] h-[100px] bg-blue-600 flex-col justify-center items-center p-3 rounded-md ">
                             <WhatsApp className='text-white block'/>
                                 <h3 className='text-white font-semibold'>Whatsapp</h3>
                                 <p className='text-white font-bold'>+261 389411835</p>
