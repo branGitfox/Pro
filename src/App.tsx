@@ -1,6 +1,6 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile } from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright} from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -190,6 +190,9 @@ function App() {
                         </ul>
                 </div>
         </div>
+        <footer className='absolute top-[4270px] w-[100%] md:top-[3000px]'>
+            <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
+        </footer>
     </div>
 </>
     
