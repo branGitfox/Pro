@@ -115,8 +115,15 @@ function App() {
                             </div>
                          
                     </div>
+                    
+
                 </div>
+                
             </div>
+        </div>
+        <div className="absolute top-[1800px] w-[100%] bg-black">
+        <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Projects</h3>
+        <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
         </div>
     </div>
   )
