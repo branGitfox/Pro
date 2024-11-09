@@ -82,6 +82,9 @@ function App() {
                 <div className="mt-[5rem] w-[100%]">
                     <h3 className='text-white font-medium text-center underline decoration-blue-600'>My Skills</h3>
                     <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>All Skills</h2>
+                    <div className="w-[400px] md:w-[450px] mt-3 m-auto">
+                        <p className='text-center text-light text-white'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus facilis repudiandae architecto, praesentium sapiente delectus repellat earum enim laborum tenetur unde eos impedit pariatur molestiae voluptatum iusto rem reiciendis sit?</p>
+                    </div>
                 </div>
             </div>
         </div>
