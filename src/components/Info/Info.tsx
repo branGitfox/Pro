@@ -73,10 +73,7 @@ function Info() {
                 </button>
               </div>
               <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">
-                <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
-                  <FaReact color="blue" size={40} />
-                  <p className="text-white mt-2 ">React</p>
-                </div>
+             
                 <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
                   <FaReact color="blue" size={40} />
                   <p className="text-white mt-2 ">React</p>
