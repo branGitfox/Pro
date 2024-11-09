@@ -1,6 +1,6 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink} from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight} from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -163,7 +163,7 @@ function App() {
                 </div>
             </div>
             <div className="mt-10 flex justify-center">
-            <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'>Hire Me<FaUserAstronaut className='inline mx-3'/></a>
+            <a  href='' className='bg-blue-700 py-4 shadow-md shadow-blue-600 px-3 md:px-10 rounded font-bold text-white'> See More<FaArrowRight className='inline mx-3'/></a>
                 
             </div>
         </div>
