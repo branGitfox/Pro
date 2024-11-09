@@ -1,6 +1,6 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
-import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile, Fa } from 'react-icons/fa6';
+import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile } from 'react-icons/fa6';
 import { GitHub } from '@mui/icons-material';
 function App() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -171,7 +171,7 @@ function App() {
         
         <hr className='absolute top-[3600px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
         <div className="absolute mt-1 flex flex-wrap justify-evenly top-[3600px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
-                <div className="w-[500px] flex-col items-center">
+                <div className="w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
                         <ul className='mt-4'>
@@ -180,7 +180,7 @@ function App() {
                             <li className='mb-4'><FaMobile size={30} className='text-green-600' /></li>
                         </ul>
                 </div>
-                <div className="w-[500px] flex-col items-center">
+                <div className=" w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
                         <ul className='mt-4'>
