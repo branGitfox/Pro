@@ -1,5 +1,6 @@
 import  { useState } from 'react'
 import br from '/br.jpg'
+import me from './assets/me.jpg'
 import { FaBars, FaX, FaUserAstronaut, FaReact, FaLink, FaArrowRight, FaEarthEurope, FaToolbox, FaMobile , FaCopyright} from 'react-icons/fa6';
 import { Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube } from '@mui/icons-material';
 
@@ -69,8 +70,8 @@ function App() {
         <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
             <h3 className='text-white font-medium text-center underline decoration-blue-600'>About Me</h3>
             <div className="mt-3 w-[100%] flex flex-wrap justify-evenly">
-                <div className="w-[500px] bg-red-500">
-                    <img src="" className='w-[100%] h-auto' alt="my profil picture..." />
+                <div className="w-[500px] bg-red-500 overflow-hidden h-auto mt-5">
+                    <img src={me} className='w-[100%] h-auto overflow-x-hidden' alt="my profil picture..." />
                 </div>
                 <div className="w-[500px] ">
                     <h2 className='font-bold text-white text-3xl md:text-4xl'>Ravomanana Brandon Fidelin</h2>
