@@ -75,14 +75,15 @@ function Info() {
                   </p>
                 </div>
                   </AnimateOnScroll>
-              <AnimateOnScroll duration={4} animation="fadeInUp">
+
                 <div className="mt-5 flex  w-[100%] md:w-[700px] m-auto flex-wrap gap-4 justify-evenly">
 
                   <button
+                  
                     onClick={() => matchFilter("Front")}
                     className={`py-2 px-4 border-blue-600  border-2 rounded-3xl ${
                       filter === "Front" ? "bg-blue-600" : ""
-                    } text-white hover:bg-blue-600`}
+                    } text-white hover:bg-blue-600 cursor-pointer`}
                   >
                     Front-End
                   </button>
@@ -90,7 +91,7 @@ function Info() {
                     onClick={() => matchFilter("Back")}
                     className={`py-2 px-4 border-blue-600  ${
                       filter === "Back" ? "bg-blue-600" : ""
-                    } border-2 rounded-3xl text-white hover:bg-blue-600`}
+                    } border-2 rounded-3xl text-white hover:bg-blue-600 cursor-pointer`}
                   >
                     Back-End
                   </button>
@@ -98,7 +99,7 @@ function Info() {
                     onClick={() => matchFilter("Data")}
                     className={`py-2 px-4 border-blue-600 ${
                       filter === "Data" ? "bg-blue-600" : ""
-                    }  border-2 rounded-3xl text-white hover:bg-blue-600`}
+                    }  border-2 rounded-3xl text-white hover:bg-blue-600 cursor-pointer`}
                   >
                     Database
                   </button>
@@ -106,7 +107,7 @@ function Info() {
                     onClick={() => matchFilter("Version")}
                     className={`py-2 px-4 border-blue-600 ${
                       filter === "Version" ? "bg-blue-600" : ""
-                    } border-2 rounded-3xl text-white hover:bg-blue-600`}
+                    } border-2 rounded-3xl text-white hover:bg-blue-600 cursor-pointer`}
                   >
                     versioning
                   </button>
@@ -114,7 +115,7 @@ function Info() {
                     onClick={() => matchFilter("Host")}
                     className={`py-2 px-4 border-blue-600  border-2 ${
                       filter === "Host" ? "bg-blue-600" : ""
-                    } rounded-3xl text-white hover:bg-blue-600`}
+                    } rounded-3xl text-white hover:bg-blue-600 cursor-pointer` }
                   >
                     Hosting
                   </button>
@@ -122,13 +123,13 @@ function Info() {
                     onClick={() => matchFilter("Tools")}
                     className={`py-2 px-4 border-blue-600 ${
                       filter === "Tools" ? "bg-blue-600" : ""
-                    } border-2 rounded-3xl text-white hover:bg-blue-600`}
+                    } border-2 rounded-3xl text-white hover:bg-blue-600 cursor-pointer`}
                   >
                     Tools
                   </button>
 
                 </div>
-              </AnimateOnScroll>
+        
               <AnimateOnScroll duration={4} animation="fadeInUp">
                 
                 <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">

@@ -27,7 +27,7 @@ function Navbar() {
             </div>
         </div>
         {
-          activeMenu && (  <div className="w-[100%] md:hidden flex-col align-left p-3 absolute top-[7.5rem] rounded-md bg-blue-800 transition-all duration-200 ">
+          activeMenu && (  <div className="w-[100%] z-50 md:hidden flex-col align-left p-3 absolute top-[7.5rem] rounded-md bg-blue-800 transition-all duration-200 ">
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Home</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>About Me</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Skills</div>

@@ -13,7 +13,7 @@ function ProjectCard(props:ProjectInfo) {
                         <h2 className='text-white font-bold mt-3 '>{props.title}</h2>
                         <p className="mt-2 font-light
                         text-white">
-                           obis fugiat. Molestias voluptatem accusamus molestiae excepturi! obis fugiat.  accusamus molestiae excepturi!{props.infos}
+                          {props.infos}
                         </p>
                         <div className="mt-3">
                             <a href={props.link} className="text-blue-600">View project <FaLink className='inline mx-2'/></a>

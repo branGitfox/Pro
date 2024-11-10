@@ -1,7 +1,7 @@
 import { GitHub } from "@mui/icons-material"
 import { DiMongodb, DiMysql } from "react-icons/di"
 import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNodeJs, FaPhp, FaGit} from "react-icons/fa6"
-import { SiExpress, SiInsomnia, SiRender, SiTailwindcss, SiVercel, SiVisualstudiocode } from "react-icons/si"
+import { SiExpress, SiInsomnia, SiRender, SiTailwindcss, SiVercel, SiVisualstudiocode, SiTypescript } from "react-icons/si"
 import { ReactElement } from "react"
 
 export interface Tech {
@@ -25,6 +25,11 @@ const skills:Tech[] = [
     {
         logo:<FaJs size={30} color='yellow'/>,
         logoname:'JavaScript',
+        type:'Front'
+    },
+    {
+        logo:<SiTypescript size={30} color='blue'/>,
+        logoname:'TypeScript',
         type:'Front'
     },
 

@@ -2,9 +2,12 @@ import { AnimateOnScroll } from "animate-on-scroll-framer"
 import { Settings } from "@mui/icons-material"
 import { FaArrowRight } from "react-icons/fa6"
 import ProjectCard from "./ProjectCard"
-
+import { useState } from "react"
+import { ProjectInfo } from "./ProjectCard"
+import projects from "../../assets/data/project"
 
 function Project() {
+    const [project] = useState<ProjectInfo[]>(projects)
   return (
    <>
                <div className="absolute top-[2200px] md:top-[1000px] lg:top-[1800px] w-[100%]" >
@@ -15,7 +18,7 @@ function Project() {
                 <p className="text-light  text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
             </div>
             <div className="mt-11 flex flex-wrap w-[100%] gap-y-4 justify-evenly">
-                <ProjectCard title={'gg'} img="rr" link="frf" infos={'df'}/>
+               {project.map((pro, index) =>  <ProjectCard key={index} title={pro.title} img={pro.img} link={pro.link} infos={pro.infos}/>)}
             </div>
             </AnimateOnScroll>
             <div className="mt-10 flex justify-center">
