@@ -23,7 +23,7 @@ function Navbar() {
             </div>
             {activeMenu?(<FaX onClick={toggleMenu} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>): <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>}
             <div className='hidden md:block'>  
-                <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Contact</button>
+                <button className='bg-[#4A76FD] py-2 px-10 rounded text-white'>Download CV</button>
             </div>
         </div>
         {
@@ -32,7 +32,7 @@ function Navbar() {
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>About Me</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Skills</div>
             <div className='mb-5 hover:underline decoration-dashed text-blue-300'><a href=""></a>Projects</div>
-            <button className='bg-blue-700 py-2 px-10 rounded text-white'>Contact</button>
+            <button className='bg-blue-700 py-2 px-10 rounded text-white'>Download CV</button>
         </div>)
         }
 
