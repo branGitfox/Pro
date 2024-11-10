@@ -1,5 +1,5 @@
 import { AnimateOnScroll } from "animate-on-scroll-framer";
-import { FaReact, FaUserAstronaut } from "react-icons/fa6";
+import { FaUserAstronaut } from "react-icons/fa6";
 import { Code } from "@mui/icons-material";
 import me from "../../assets/me.jpg";
 import InfoCard from "./InfoCard";

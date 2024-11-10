@@ -1,5 +1,5 @@
 import { AnimateOnScroll } from "animate-on-scroll-framer"
-import { Settings, Title } from "@mui/icons-material"
+import { Settings } from "@mui/icons-material"
 import { FaArrowRight } from "react-icons/fa6"
 import ProjectCard from "./ProjectCard"
 
