@@ -6,6 +6,7 @@ import Stats from './components/Stats/Stats';
 import Project from './components/Project/Project';
 import Footer from './components/Footer/Footer';
 import Info from './components/Info/Info';
+import { Outlet } from 'react-router-dom';
 function App() {
 
   return (
@@ -13,11 +14,7 @@ function App() {
 
     <div className="container sm relative flex justify-center m-auto">
         <Navbar/>
-        <Intro/>
-        <Stats/>
-        <Info/>
-        <Project/>
-        <Footer/>
+        <Outlet />
     </div>
 </>
     

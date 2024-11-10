@@ -1,10 +1,11 @@
 import { useState } from "react"
 import { FaBars, FaX} from 'react-icons/fa6';
 import br from '/br.jpg'
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
-  
+
   const toggleMenu = () => {
     setActiveMenu(!activeMenu)
   }
@@ -16,10 +17,10 @@ function Navbar() {
                 <h3 className='text-3xl font-bold text-white'>Brandon.</h3>
             </div>
             <div className=' gap-10 font-semibold text-white hidden md:flex'>  
-                <a className='text-blue-600 hover:underline decoration-dashed decoration-blue-700 transition-all ' href="">Home</a>
-                <a className='hover:underline decoration-dashed' href="">About Me</a>
-                  <a className='hover:underline decoration-dashed' href="">Skills</a>
-                  <a className='hover:underline decoration-dashed' href="">Project</a>
+                <Link className='text-blue-600 hover:underline decoration-dashed decoration-blue-700 transition-all ' to="">Home</Link>
+                <Link className='hover:underline decoration-dashed' to="">About Me</Link>
+                  <Link className='hover:underline decoration-dashed' to="">Skills</Link>
+                  <Link className='hover:underline decoration-dashed' to="">Project</Link>
             </div>
             {activeMenu?(<FaX onClick={toggleMenu} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>): <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>}
             <div className='hidden md:block'>  
