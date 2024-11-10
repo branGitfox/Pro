@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { FaBars, FaX} from 'react-icons/fa6';
 import br from '/br.jpg'
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
@@ -9,6 +9,11 @@ function Navbar() {
   const toggleMenu = () => {
     setActiveMenu(!activeMenu)
   }
+
+  const location = useLocation() 
+
+
+
   return (
     <>
         <div className='bg-blue-900  w-[100%] absolute container border rounded-xl border-blue-900 shadow-sm top-6 m-auto p-6 flex  justify-between items-center'>
@@ -17,10 +22,10 @@ function Navbar() {
                 <h3 className='text-3xl font-bold text-white'>Brandon.</h3>
             </div>
             <div className=' gap-10 font-semibold text-white hidden md:flex'>  
-                <Link className='text-blue-600 hover:underline decoration-dashed decoration-blue-700 transition-all ' to="">Home</Link>
-                <Link className='hover:underline decoration-dashed' to="">About Me</Link>
-                  <Link className='hover:underline decoration-dashed' to="">Skills</Link>
-                  <Link className='hover:underline decoration-dashed' to="">Project</Link>
+                <Link className={`${location.pathname==='/'?'text-blue-500':''} hover:underline decoration-dashed decoration-blue-600 transition-all `}  to="/">Home</Link>
+                <Link className={ `${location.pathname==='/projects'?'text-blue-500':''} hover:underline decoration-dashed`} to="/projects">Projects</Link>
+                  <Link className={`${location.pathname==='/experiences'?'text-blue-500':''}hover:underline decoration-dashed`} to="experiences">Experiences</Link>
+                 
             </div>
             {activeMenu?(<FaX onClick={toggleMenu} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>): <FaBars onClick={() => setActiveMenu(!activeMenu)} color='#4A76FD' size={30} className='md:hidden sm:inline' cursor={'pointer'}/>}
             <div className='hidden md:block'>  
