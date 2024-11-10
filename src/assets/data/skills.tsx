@@ -71,7 +71,7 @@ const skills:Tech[] = [
     },
 
     {
-        logo:<GitHub size={30} color='black'/>,
+        logo:<GitHub />,
         logoname:'GitHub',
         type:'Version'
     },
