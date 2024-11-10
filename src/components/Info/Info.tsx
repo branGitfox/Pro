@@ -2,7 +2,12 @@ import { AnimateOnScroll } from "animate-on-scroll-framer";
 import { FaReact, FaUserAstronaut } from "react-icons/fa6";
 import { Code } from "@mui/icons-material";
 import me from '../../assets/me.jpg'
+import InfoCard from "./InfoCard";
+import skills from '../../assets/data/skills';
+import { useState } from "react";
+import { Tech } from "../../assets/data/skills";
 function Info() {
+    const [skill] = useState<Tech[]>(skills)
   return (
     <>
            <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
@@ -73,23 +78,8 @@ function Info() {
                 </button>
               </div>
               <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">
-             
-                <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
-                  <FaReact color="blue" size={40} />
-                  <p className="text-white mt-2 ">React</p>
-                </div>{" "}
-                <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
-                  <FaReact color="blue" size={40} />
-                  <p className="text-white mt-2 ">React</p>
-                </div>
-                <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
-                  <FaReact color="blue" size={40} />
-                  <p className="text-white mt-2 ">React</p>
-                </div>
-                <div className="w-[100px] h-[100px] border-blue-600 border-2 rounded-xl flex flex-col items-center justify-center">
-                  <FaReact color="blue" size={40} />
-                  <p className="text-white mt-2 ">React</p>
-                </div>
+            
+              {skill.map((sk, index) => <InfoCard key={index} logo={sk.logo}  logoname={sk.logoname} type={sk.type}/>)}
               </div>
             </AnimateOnScroll>
           </div>
