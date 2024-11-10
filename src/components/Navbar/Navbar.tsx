@@ -4,7 +4,7 @@ import br from '/br.jpg'
 
 function Navbar() {
   const [activeMenu, setActiveMenu] = useState<boolean>(false)
-
+  
   const toggleMenu = () => {
     setActiveMenu(!activeMenu)
   }
@@ -16,7 +16,7 @@ function Navbar() {
                 <h3 className='text-3xl font-bold text-white'>Brandon.</h3>
             </div>
             <div className=' gap-10 font-semibold text-white hidden md:flex'>  
-                <a className='text-blue-800 hover:underline decoration-dashed decoration-blue-700 transition-all ' href="">Home</a>
+                <a className='text-blue-600 hover:underline decoration-dashed decoration-blue-700 transition-all ' href="">Home</a>
                 <a className='hover:underline decoration-dashed' href="">About Me</a>
                   <a className='hover:underline decoration-dashed' href="">Skills</a>
                   <a className='hover:underline decoration-dashed' href="">Project</a>
