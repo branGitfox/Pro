@@ -8,6 +8,12 @@ import { useState } from "react";
 import { Tech } from "../../assets/data/skills";
 function Info() {
     const [skill] = useState<Tech[]>(skills)
+    const [filter, setFilter]= useState<string>('Front')
+    const filtered = skill.filter(sk => sk.type===filter)
+
+    const matchFilter = (filter:string) => {
+      setFilter(filter)
+    }
   return (
     <>
            <div className='w-[100%] absolute top-[800px] p-5 md:top-[980px]'>
@@ -58,28 +64,28 @@ function Info() {
                 </p>
               </div>
               <div className="mt-5 flex  w-[100%] md:w-[700px] m-auto flex-wrap gap-4 justify-evenly">
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl bg-blue-600  text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Front')} className={`py-2 px-4 border-blue-600  border-2 rounded-3xl ${filter==='Front'?'bg-blue-600':'' } text-white hover:bg-blue-600`}>
                   Front-End
                 </button>
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Back')} className={`py-2 px-4 border-blue-600  ${filter==='Back'?'bg-blue-600':'' } border-2 rounded-3xl text-white hover:bg-blue-600`}>
                   Back-End
                 </button>
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Database')} className={`py-2 px-4 border-blue-600 ${filter==='Database'?'bg-blue-600':'' }  border-2 rounded-3xl text-white hover:bg-blue-600`}>
                   Database
                 </button>
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Version')} className={`py-2 px-4 border-blue-600 ${filter==='Version'?'bg-blue-600':'' } border-2 rounded-3xl text-white hover:bg-blue-600`}>
                   versioning
                 </button>
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Host')} className={`py-2 px-4 border-blue-600  border-2 ${filter==='Host'?'bg-blue-600':'' } rounded-3xl text-white hover:bg-blue-600`}>
                   Hosting
                 </button>
-                <button className="py-2 px-4 border-blue-600  border-2 rounded-3xl text-white hover:bg-blue-600">
+                <button onClick={() => matchFilter('Tools')} className={`py-2 px-4 border-blue-600 ${filter==='Tools'?'bg-blue-600':'' } border-2 rounded-3xl text-white hover:bg-blue-600`}>
                   Tools
                 </button>
               </div>
               <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">
             
-              {skill.map((sk, index) => <InfoCard key={index} logo={sk.logo}  logoname={sk.logoname} type={sk.type}/>)}
+              {filtered.map((sk, index) => <InfoCard key={index} logo={sk.logo}  logoname={sk.logoname} type={sk.type}/>)}
               </div>
             </AnimateOnScroll>
           </div>
