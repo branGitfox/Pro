@@ -60,7 +60,7 @@ function Projects() {
               <div className="mt-11  flex flex-wrap w-[100%] gap-y-4 justify-evenly ">
                 {
                   filtered.map((pr, index) =><div key={index} className="w-[320px] h-[380px] rounded-lg bg-gray-900 p-4">
-                  <img src='' className='w-[100%] h-[55%] rounded-lg' alt="" />
+                  <img src={pr.img} className='w-[100%] h-[55%] rounded-lg' alt="" />
                   <h2 className='text-white font-bold mt-3 '>{pr.title}</h2>
                   <p className="mt-2 font-light
                   text-white">
