@@ -58,7 +58,7 @@ function Info() {
             </div>
 
             <div className="mt-[5rem] w-[100%]">
-              <AnimateOnScroll duration={4} animation="fadeInUp">
+              {/* <AnimateOnScroll duration={4} animation="fadeInUp"> */}
                 <h3 className="text-white font-medium text-center ">
                   My Skills <Code className="inline" />
                 </h3>
@@ -74,7 +74,7 @@ function Info() {
                     reiciendis sit?
                   </p>
                 </div>
-                  </AnimateOnScroll>
+                  {/* </AnimateOnScroll> */}
 
                 <div className="mt-5 flex  w-[100%] md:w-[700px] m-auto flex-wrap gap-4 justify-evenly">
 
@@ -130,7 +130,7 @@ function Info() {
 
                 </div>
         
-              <AnimateOnScroll duration={4} animation="fadeInUp">
+              {/* <AnimateOnScroll duration={4} animation="fadeInUp"> */}
                 
                 <div className="mt-6 flex  w-[100%] md:w-[800px] m-auto flex-wrap gap-3 justify-evenly">
                   
@@ -143,7 +143,7 @@ function Info() {
                     />
                   ))}
                 </div>
-                </AnimateOnScroll>
+                {/* </AnimateOnScroll> */}
             
             </div>
           </div>
