@@ -1,6 +1,5 @@
 import { FaLink } from "react-icons/fa6"
 import { useState } from "react";
-import { Tech } from "../assets/data/skills";
 import projects from "../assets/data/project";
 import { ProjectInfo } from '../components/Project/ProjectCard';
 
