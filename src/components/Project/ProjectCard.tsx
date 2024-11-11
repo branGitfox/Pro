@@ -3,7 +3,8 @@ export type ProjectInfo = {
     title:String,
     img:string,
     link:string,
-    infos:String
+    infos:String,
+    category?:string
 }
 function ProjectCard(props:ProjectInfo) {
   return (

@@ -8,6 +8,7 @@ import projects from "../../assets/data/project"
 
 function Project() {
     const [project] = useState<ProjectInfo[]>(projects)
+    
   return (
    <>
                <div className="absolute top-[2200px] md:top-[1000px] lg:top-[1800px] w-[100%]" >
