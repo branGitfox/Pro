@@ -4,8 +4,8 @@ import {  Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube } from '@mui/icons-
 function Footer() {
   return (
     <>
-        <hr className='absolute top-[3800px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
-        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[3800px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
+        <hr className='absolute top-[4000px] w-[100%] md:top-[2600px] border-blue-600 border-2'/>
+        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[4000px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
                 <div className="w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
