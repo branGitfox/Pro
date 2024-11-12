@@ -15,7 +15,7 @@ function Project() {
             <h3 className='text-white font-medium text-center' >My Projects <Settings/></h3>
             <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
             <div className="mt-3 text-center md:w-[600px] m-auto">
-                <p className="text-light  text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit facilis labore quibusdam accusamus a vitae, accusantium deserunt nemo quos distinctio incidunt assumenda delectus, dicta quia doloribus dolorum! Quasi!</p>
+                <p className="text-light  text-white">As a full stack developer, it is more than necessary to create useful, revolutionary, and long-term projects. So here are some excerpts from my recent projects that I am proud of.</p>
             </div>
             <div className="mt-11 flex flex-wrap w-[100%] gap-y-4 justify-evenly">
                {project.map((pro, index) =>  <ProjectCard key={index} title={pro.title} img={pro.img} link={pro.link} infos={pro.infos}/>)}
