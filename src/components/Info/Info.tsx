@@ -41,9 +41,9 @@ function Info() {
               <h2 className="font-bold text-white text-3xl md:text-4xl text-center">
                 Ravomanana Brandon Fidelin
               </h2>
-              <p className="font-md mt-3 text-white">
+              <p className="font-md mt-3 text-white text-center md:text-left">
               I am 20 years old, I am currently a student in Computer Science, Software Engineering and Artificial Intelligence at the Institute Superior Polytechnic of Madagascar, in Third year.              </p>
-              <p className="font-md mt-3 text-white ">
+              <p className="font-md mt-3 text-white text-center md:text-left">
               Equipped with a creative and innovative spirit, always ready to take on challenges, with a thirst for knowledge. But still, very logical and rational, Assets which are in the process of being extinguished at the moment.              </p>
               </AnimateOnScroll>
 
