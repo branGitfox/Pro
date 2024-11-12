@@ -40,7 +40,7 @@ function Footer() {
 
                 </div>
         </div>
-        <footer className='absolute top-[4800px] w-[100%] md:top-[3000px]'>
+        <footer id='footer' className='absolute top-[4800px] w-[100%] md:top-[3000px]'>
             <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="www.github.com/BranGitfox">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
         </footer>
     </>
