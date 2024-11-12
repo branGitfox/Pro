@@ -4,8 +4,8 @@ import {  Facebook, GitHub, LinkedIn, Mail,WhatsApp, YouTube } from '@mui/icons-
 function Footer() {
   return (
     <>
-        <hr className='absolute top-[4000px] w-[100%] md:top-[623.5%] xl:top-[2600px] border-blue-600 border-2'/>
-        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[4000px] w-[100%] md:top-[623.5%] xl:top-[2600px] p-5   bg-gray-900">
+        <hr className='absolute top-[4000px] w-[100%] md:top-[655.5%] xl:top-[2600px]  border-blue-600 border-2'/>
+        <div className="absolute mt-1 flex flex-wrap justify-evenly top-[4000px] w-[100%] md:top-[655.5%] xl:top-[2600px] p-5   bg-gray-900">
                 <div className="w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Now that you're won over, don't hesitate any longer, here are some of my services, which I'm offering for free for the first time. So I can create you
