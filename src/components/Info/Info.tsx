@@ -42,11 +42,9 @@ function Info() {
                 Ravomanana Brandon Fidelin
               </h2>
               <p className="font-md mt-3 text-white">
-                J'ai 20 ans, je suis actuellement etudiants en Informatique Genie Logiciel et Intelligence Artificielle a l'Institue Superieur Polytechnique de Madagascar, en Troisieme annee.
-              </p>
+              I am 20 years old, I am currently a student in Computer Science, Software Engineering and Artificial Intelligence at the Institute Superior Polytechnic of Madagascar, in Third year.              </p>
               <p className="font-md mt-3 text-white ">
-                  Munie d'un esprit creatif et innovant, toujours pret a relever les defis, avec une soif de connaisssance. Mais encore, tres logique et rationnel, Des atouts qui sont en voie d'exctinction en ce moment.
-              </p>
+              Equipped with a creative and innovative spirit, always ready to take on challenges, with a thirst for knowledge. But still, very logical and rational, Assets which are in the process of being extinguished at the moment.              </p>
               </AnimateOnScroll>
 
             </div>
