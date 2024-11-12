@@ -42,16 +42,10 @@ function Info() {
                 Ravomanana Brandon Fidelin
               </h2>
               <p className="font-md mt-3 text-white">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Incidunt suscipit dolor quasi et officia minima harum
-                praesentium nulla id odio qui vero cupiditate beatae tempora, a
-                soluta numquam? Quae, blanditiis!
+                J'ai 20 ans, je suis actuellement etudiants en Informatique Genie Logiciel et Intelligence Artificielle a l'Institue Superieur Polytechnique de Madagascar, en Troisieme annee.
               </p>
               <p className="font-md mt-3 text-white ">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Incidunt suscipit dolor quasi et officia minima harum
-                praesentium nulla id odio qui vero cupiditate beatae tempora, a
-                soluta numquam? Quae, blanditiis!
+                  Munie d'un esprit creatif et innovant, toujours pret a relever les defis, avec une soif de connaisssance. Mais encore, tres logique et rationnel, Des atouts qui sont en voie d'exctinction en ce moment.
               </p>
               </AnimateOnScroll>
 
