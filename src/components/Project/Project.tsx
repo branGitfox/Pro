@@ -8,6 +8,7 @@ import projects from "../../assets/data/project"
 import { Link } from "react-router-dom"
 function Project() {
     const [project] = useState<ProjectInfo[]>(projects)
+    const onlyThree = project.filter((pro, index) => index <= 2)
   return (
    <>
                <div className="absolute top-[2400px] md:top-[1800px]  w-[100%]" >
@@ -18,7 +19,7 @@ function Project() {
                 <p className="text-light  text-white">As a full stack developer, it is more than necessary to create useful, revolutionary, and long-term projects. So here are some excerpts from my recent projects that I am proud of.</p>
             </div>
             <div className="mt-11 flex flex-wrap w-[100%] gap-y-4 justify-evenly">
-               {project.map((pro, index) =>  <ProjectCard key={index} title={pro.title} img={pro.img} link={pro.link} infos={pro.infos}/>)}
+               {onlyThree.map((pro, index) =>  <ProjectCard key={index} title={pro.title} img={pro.img} link={pro.link} infos={pro.infos}/>)}
             </div>
             </AnimateOnScroll>
             <div className="mt-10 flex justify-center">
