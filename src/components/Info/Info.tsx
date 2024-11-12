@@ -59,12 +59,7 @@ function Info() {
                 </h2>
                 <div className="w-[100%] md:w-[450px] mt-3 m-auto">
                   <p className="text-center text-light text-white">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Possimus facilis repudiandae architecto, praesentium
-                    sapiente delectus repellat earum enim laborum tenetur unde
-                    eos impedit pariatur molestiae voluptatum iusto rem
-                    reiciendis sit?
-                  </p>
+                  Being a developer involves culture, being up to date and most importantly competence and experience with development technology. Here are the technologies and tools that I master and use every day                  </p>
                 </div>
                   {/* </AnimateOnScroll> */}
 
