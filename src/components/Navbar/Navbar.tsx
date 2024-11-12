@@ -63,9 +63,9 @@ function Navbar() {
           />
         )}
         <div className="hidden md:block">
-          <button className="bg-[#4A76FD] py-2 px-10 rounded text-white">
+          <a href="/cv.PNG" download className="bg-[#4A76FD] py-2 px-10 rounded text-white">
             Download CV
-          </button>
+          </a>
         </div>
       </div>
       {activeMenu && (
@@ -103,9 +103,9 @@ function Navbar() {
               Experiences
             </Link>
           </div>
-          <button className="bg-blue-700 py-2 px-10 rounded text-white">
+          <a download href='/cv.PNG' className="bg-blue-700 py-2 px-10 rounded text-white">
             Download CV
-          </button>
+          </a>
         </div>
       )}
     </>
