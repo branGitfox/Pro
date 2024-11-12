@@ -8,7 +8,7 @@ import projects from "../../assets/data/project"
 import { Link } from "react-router-dom"
 function Project() {
     const [project] = useState<ProjectInfo[]>(projects)
-    const onlyThree = project.filter((pro, index) => index <= 2)
+    const onlyThree = project.filter((pro, index) => index <= 2 && pro)
   return (
    <>
                <div className="absolute top-[2400px] md:top-[1800px]  w-[100%]" >
