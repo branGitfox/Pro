@@ -11,7 +11,7 @@ function Project() {
     const onlyThree = project.filter((pro, index) => index <= 2 && pro)
   return (
    <>
-               <div className="absolute top-[2400px] md:top-[430%] lg:top-[1800px]  w-[100%]" >
+               <div className="absolute top-[2400px] md:top-[430%] xl:top-[1800px]  w-[100%]" >
             <AnimateOnScroll duration={4} animation='fadeInUp'>
             <h3 className='text-white font-medium text-center' >My Projects <Settings/></h3>
             <h2 className='text-center text-white text-3xl md:text-4xl font-bold mt-5'>My Recent Projects</h2>
