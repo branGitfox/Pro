@@ -10,9 +10,9 @@ function Footer() {
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
                         <p className="mt-3 font-light text-white ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aperiam, nemo aspernatur ex molestiae harum doloribus, id cupiditate enim iusto at voluptatem facilis? Ullam quaerat, nesciunt animi fuga tempore autem.</p>
                         <ul className='mt-4'>
-                            <li  className='mb-4'><FaEarthEurope size={30} className='text-blue-600'/>Web Application </li>
-                            <li className='mb-4'><FaToolbox size={30} className='text-orange-600' />Microservice API</li>
-                            <li className='mb-4'><FaMobile size={30} className='text-green-600' />Mobile Application</li>
+                            <li  className='mb-4 text-white'><FaEarthEurope  size={30} className='inline mx-2  text-blue-600'/>Web Application </li>
+                            <li className='mb-4 text-white'><FaToolbox size={30} className='inline mx-2 text-orange-600' />Microservice API</li>
+                            <li className='mb-4 text-white'><FaMobile size={30} className='inline mx-2 text-green-600' />Mobile Application</li>
                         </ul>
                 </div>
                 <div className=" w-[100%] md:w-[500px] flex-col items-center">
