@@ -21,8 +21,8 @@ function Footer() {
                         <h2 className='text-white text-4xl font-bold'>Let's Connect In...</h2>
                         <div className="mt-3 flex justify-between flex-wrap gap-2">
                             <a target='_blank' href="https://www.linkedin.com/in/brandon-fidelin-ravomanana-59157b281" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><LinkedIn className='inline mx-2 text-blue-600'/>LinkedIn</a>
-                            <a target='_blank' href="www.github.com" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><GitHub className='inline mx-2'/>Github</a>
-                            <a href="https://web.facebook.com/brandonfidelin.ravomanana" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><Facebook className='inline mx-2'/>Facebook</a>
+                            <a target='_blank' href="https://github.com/BranGitfox" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><GitHub className='inline mx-2'/>Github</a>
+                            <a target='_blank' href="https://web.facebook.com/brandonfidelin.ravomanana" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><Facebook className='inline mx-2'/>Facebook</a>
                             <a target='_blank' href=" www.youtube.com/@BrandonFidelinDEV" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><YouTube  className='inline mx-2 text-red-700'/>Youtube</a>
                         </div>
                         <h2 className='text-white text-4xl font-bold mt-3'>My Contact Information</h2>
