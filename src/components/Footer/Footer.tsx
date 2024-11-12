@@ -8,7 +8,9 @@ function Footer() {
         <div className="absolute mt-1 flex flex-wrap justify-evenly top-[4000px] w-[100%] md:top-[2600px] p-5   bg-gray-900">
                 <div className="w-[100%] md:w-[500px] flex-col items-center">
                         <h1 className='text-white text-4xl font-bold'>Enough Talk! Let's Work Together.</h1>
-                        <p className="mt-3 font-light text-white ">Now that you are won over, don't hesitate any longer, here are some of my services, which I am offering free of charge for the first time. So I can create you</p>
+                        <p className="mt-3 font-light text-white ">Now that you're won over, don't hesitate any longer, here are some of my services, which I'm offering for free for the first time. So I can create you
+
+</p>
                         <ul className='mt-4'>
                             <li  className='mb-4 text-white'><FaEarthEurope  size={30} className='inline mx-2  text-blue-600'/>Web Application </li>
                             <li className='mb-4 text-white'><FaToolbox size={30} className='inline mx-2 text-orange-600' />Microservice API</li>
@@ -18,10 +20,10 @@ function Footer() {
                 <div className=" w-[100%] md:w-[500px] flex-col items-center">
                         <h2 className='text-white text-4xl font-bold'>Let's Connect In...</h2>
                         <div className="mt-3 flex justify-between flex-wrap gap-2">
-                            <a href="https://www.linkedin.com/in/brandon-fidelin-ravomanana-59157b281" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><LinkedIn className='inline mx-2 text-blue-600'/>LinkedIn</a>
-                            <a href="www.github.com" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><GitHub className='inline mx-2'/>Github</a>
+                            <a target='_blank' href="https://www.linkedin.com/in/brandon-fidelin-ravomanana-59157b281" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><LinkedIn className='inline mx-2 text-blue-600'/>LinkedIn</a>
+                            <a target='_blank' href="www.github.com" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><GitHub className='inline mx-2'/>Github</a>
                             <a href="https://web.facebook.com/brandonfidelin.ravomanana" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><Facebook className='inline mx-2'/>Facebook</a>
-                            <a href=" www.youtube.com/@BrandonFidelinDEV" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><YouTube  className='inline mx-2 text-red-700'/>Youtube</a>
+                            <a target='_blank' href=" www.youtube.com/@BrandonFidelinDEV" className="px-6 py-2 bg-gray-700 text-white rounded-sm"><YouTube  className='inline mx-2 text-red-700'/>Youtube</a>
                         </div>
                         <h2 className='text-white text-4xl font-bold mt-3'>My Contact Information</h2>
                         <div className="mt-2 flex justify-start gap-1">
