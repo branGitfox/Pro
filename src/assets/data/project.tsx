@@ -5,7 +5,7 @@ const projects:ProjectInfo[] = [
         title:"Yummy - Food Delivery",
         img:"/projectImg/yummy.png",
         infos:"Online food delivery web application using: Bootstrap, PHP, Javascript, Mysql, OPP / MVC",
-        link:"www.github.com/BranGitfox/yummy.git",
+        link:"https://github.com/branGitfox/Yummy",
         category:'Web'
 
     },

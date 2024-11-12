@@ -55,7 +55,7 @@ function Navbar() {
           />
         ) : (
           <FaBars
-            onClick={() => setActiveMenu(!activeMenu)}
+            onClick={toggleMenu}
             color="#4A76FD"
             size={30}
             className="md:hidden sm:inline"
