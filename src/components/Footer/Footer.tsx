@@ -43,7 +43,7 @@ function Footer() {
                 </div>
         </div>
         <footer id='footer' className='absolute top-[4800px] w-[100%] md:top-[833.5%] xl:top-[3200px]'>
-            <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="www.github.com/BranGitfox">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
+            <p className='text-center font-semibold text-white'>Made with ❤️ by <a className='underline' href="https://github.com/BranGitfox">BranGitFox</a>, <FaCopyright className='inline'/> 2024</p>
         </footer>
     </>
   )
