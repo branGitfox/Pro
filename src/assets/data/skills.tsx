@@ -1,7 +1,7 @@
 import { GitHub } from "@mui/icons-material"
 import { DiMongodb, DiMysql } from "react-icons/di"
 import { FaReact, FaHtml5, FaCss3, FaJs, FaBootstrap, FaNodeJs, FaPhp, FaGit} from "react-icons/fa6"
-import { SiExpress, SiInsomnia, SiRender, SiTailwindcss, SiVercel, SiVisualstudiocode, SiTypescript, SiRedux } from "react-icons/si"
+import { SiExpress, SiInsomnia, SiRender, SiTailwindcss, SiVercel, SiVisualstudiocode, SiTypescript, SiRedux, SiPostman } from "react-icons/si"
 import { ReactElement } from "react"
 
 export interface Tech {
@@ -18,7 +18,7 @@ const skills:Tech[] = [
     },
     
     {
-        logo:<FaCss3 size={30} color='blue'/>,
+        logo:<FaCss3 size={30} color='#4cc9f0'/>,
         logoname:'CSS',
         type:'Front'
     },
@@ -28,7 +28,7 @@ const skills:Tech[] = [
         type:'Front'
     },
     {
-        logo:<SiTypescript size={30} color='blue'/>,
+        logo:<SiTypescript size={30} color='#4cc9f0'/>,
         logoname:'TypeScript',
         type:'Front'
     },
@@ -41,7 +41,7 @@ const skills:Tech[] = [
 
  
     {
-        logo:<FaBootstrap size={30} color='purple'/>,
+        logo:<FaBootstrap size={30} color='#3a0ca3'/>,
         logoname:'Bootstrap',
         type:'Front'
     },
@@ -93,8 +93,13 @@ const skills:Tech[] = [
     },
 
     {
-        logo:<SiInsomnia size={30} color='violet'/>,
+        logo:<SiInsomnia size={30} color='#3a0ca3'/>,
         logoname:'Insomnia',
+        type:'Tools',
+    },
+    {
+        logo:<SiPostman size={30} color='#e85d04'/>,
+        logoname:'Postman',
         type:'Tools',
     },
     {
