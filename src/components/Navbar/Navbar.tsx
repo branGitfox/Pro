@@ -98,7 +98,7 @@ function Navbar() {
               className={`${
                 location.pathname === "/experiences" ? "text-blue-500" : ""
               }hover:underline decoration-dashed`}
-              to="experiences"
+              to="/experiences"
             >
               Experiences
             </Link>
