@@ -40,7 +40,7 @@ const projects:ProjectInfo[] = [
         title:"Old - Portfolio",
         img:"/projectImg/Old.png",
         infos:"This my old portfolio website using React js",
-        link:"https://php-number-to-letter-library.vercel.app/",
+        link:"https://brandondev17.vercel.app/",
         category:'Web'
 
     },
