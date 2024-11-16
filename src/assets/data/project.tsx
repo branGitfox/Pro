@@ -16,6 +16,15 @@ const projects:ProjectInfo[] = [
         link:"https://github.com/branGitfox/Yummy",
         category:'Web'
 
+    },   
+        
+{
+        title:"Gestion Employees - Management",
+        img:"/projectImg/GE.png",
+        infos:"Worker Management web application using: Bootstrap, JavaScript, Ajax, PHP MySQL",
+        link:"https://github.com/branGitfox/GestionEmployers",
+        category:'Web'
+
     },
 
     {
@@ -27,14 +36,7 @@ const projects:ProjectInfo[] = [
 
     },
 
-    {
-        title:"Gestion Employees - Management",
-        img:"/projectImg/GE.png",
-        infos:"Worker Management web application using: Bootstrap, JavaScript, Ajax, PHP MySQL",
-        link:"https://github.com/branGitfox/GestionEmployers",
-        category:'Web'
 
-    },
     {
         title:"NTL - PHP Library",
         img:"/projectImg/NTL.png",
