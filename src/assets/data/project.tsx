@@ -3,7 +3,7 @@ import { ProjectInfo } from "../../components/Project/ProjectCard"
 const projects:ProjectInfo[] = [
         {
         title:"JokeLand - Jokes Generator",
-        img:"/projectImg/yummy.png",
+        img:"/projectImg/IMG_4163.jpeg",
         infos:"Online jokes generator website using: ReactJS, Redux, TailwindCSS, JokeAPI",
         link:"https://github.com/branGitfox/JokeLand",
         category:'Web'
