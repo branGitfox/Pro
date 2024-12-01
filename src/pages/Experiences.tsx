@@ -43,7 +43,7 @@ function Experiences() {
       {
         title: "Nowadays",
         cardTitle: "Licence in Computer Science at ISPM",
-        cardSubtitle:"Doing my 3 Months Stage at MNTFop",
+        cardSubtitle:"Doing my 3 Months Stage at MTEFoP",
         cardDetailedText: "Building Web Application for managing Civil Documents", 
   
       }
