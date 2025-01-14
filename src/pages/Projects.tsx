@@ -57,7 +57,7 @@ function Projects() {
                   </button>
                 </div>
         
-              <div className="mt-11  flex flex-wrap w-[100%] gap-y-4 justify-evenly ">
+              <div className="mt-11  flex flex-wrap w-[100%] gap-10 justify-evenly ">
                 {
                   filtered.map((pr, index) =><div key={index} className="w-[320px] h-[380px] rounded-lg bg-gray-900 p-4">
                   <img src={pr.img} className='w-[100%] h-[55%] rounded-lg' alt="" />
