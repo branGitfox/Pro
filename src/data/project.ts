@@ -18,8 +18,8 @@ export const datas : Projects[] = [
     {
         name:'Ravomanana',
         description:"Lorem ipsum",
-        img1:"/img/first.png",
-        img2:"/img/second.png",
+        img1:"GE.png",
+        img2:"Full.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
         stacks: ['vite.svg', 'vite.svg'],
@@ -28,8 +28,8 @@ export const datas : Projects[] = [
     {
         name:'Ravomanana',
         description:"Lorem ipsum",
-        img1:"/img/first.png",
-        img2:"/img/second.png",
+        img1:"GE.png",
+        img2:"Full.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
         stacks: ['vite.svg', 'vite.svg', 'vite.svg'],
