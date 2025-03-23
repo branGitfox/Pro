@@ -27,7 +27,7 @@ function Project() {
         <div className="items-center justify-center grid grid-cols-3 mx-auto  bg-transparent border-1  mb-5 h-10 rounded-full flex-col z-50">
             <button onClick={() => changeFilter('webApp')} className={`${filter==='webApp'?'bg-slate-600':'bg-slate-700'} text-neutral-300 h-full px-3 rounded-l-full  ` }>Application Web</button>
             <button onClick={() => changeFilter('website')} className={`${filter==='website'?'bg-slate-600':'bg-slate-700'} text-neutral-300 h-full px-3  hover:bg-slate-600`}>Site Web</button>
-            <button onClick={() => changeFilter('utils')} className={`${filter==='utils'?'bg-slate-600':'bg-slate-700'} text-neutral-300 h-full px-3 rounded-r-full hover:bg-slate-600`}>Outils De Developpement</button>
+            <button onClick={() => changeFilter('utils')} className={`${filter==='utils'?'bg-slate-600':'bg-slate-700'} text-neutral-300 h-full px-3 rounded-r-full hover:bg-slate-600`}>Outils</button>
 
 
            
