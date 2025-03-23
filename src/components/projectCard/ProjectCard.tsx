@@ -68,7 +68,7 @@ function ProjectCard(props:projects) {
         <div className="py-12 px-6 lg:px-12 max-w-xl lg:max-w-5xl lg:w-1/2 rounded-t-none border lg:rounded-lg">
             <h2 className="text-3xl text-gray-300 font-bold">
                 {props.datas.name}
-                <span className="text-blue-500">Choices</span>
+                <span className="text-blue-500">  - {props.datas.type}</span>
             </h2>
             {props.datas.stacks.map((Stack, index) => <img key={index} src={`/${Stack}`} className="inline mx-1" width={32} height={32}/>)}
             <p className="mt-4 text-gray-600">
