@@ -1,4 +1,4 @@
-import Footer from "./components/footer/Footer"
+// import Footer from "./components/footer/Footer"
 import Header from "./components/header/Header"
 import Hero from "./components/hero/Hero"
 import Project from "./components/project/Project"
@@ -12,7 +12,7 @@ function App() {
     <Header/>
     <Hero/>
     <Stack/>
-    <Footer/>
+    {/* <Footer/> */}
     <Social/>
     <Project/>
     <About/>
