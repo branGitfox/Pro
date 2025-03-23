@@ -70,6 +70,7 @@ function ProjectCard(props:projects) {
                 {props.datas.name}
                 <span className="text-blue-500">Choices</span>
             </h2>
+            {props.datas.stacks.map((Stack, index) => <img key={index} src={`/${Stack}`} className="inline mx-1" width={32} height={32}/>)}
             <p className="mt-4 text-gray-600">
                 The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
                 sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
