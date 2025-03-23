@@ -5,11 +5,7 @@ type projects  = {
   theme?:'dark' | 'light'
 }
 
-const style = {
-  backgroundPosition:'center',
-  backgroundSize:'cover',
-  backgroundRepeat:'no repeat'
-}
+
 
 function ProjectCard(props:projects) {
   return (
