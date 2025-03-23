@@ -11,7 +11,7 @@ export default interface Projects {
     type: ProjectType
 }
 
-type ProjectType= 'webApp'|'website'|'utils'
+export type ProjectType= 'webApp'|'website'|'utils'
 
 
 export const datas : Projects[] = [
