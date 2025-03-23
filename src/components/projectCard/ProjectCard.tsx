@@ -16,7 +16,7 @@ function ProjectCard(props:projects) {
    
     <div className=" mt-5 flex  flex-wrap  lg:min-w-[1204px]  lg:flex-row h-[300px] ms-center border border-neutral-700 divide-y lg:divide-y-0 lg:divide-x divide-neutral-700 rounded-xl">
    
-    <a className="group w-full lg:w-1/3 relative z-10 p-4 md:p-6 h-full flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
+    <a className="group w-full lg:w-1/3 relative z-10 p-4 md:p-6 h-full flex flex-col bg-neutral-900 focus:outline-hidden  focus:before:opacity-100" href="#">
       <div className="mb-5">
 
 
@@ -42,21 +42,21 @@ function ProjectCard(props:projects) {
           <p className="mt-1 text-neutral-400">{props.datas.description}</p> 
         </div>
       </div>
-      {/* <p className="mt-auto">
-        <span  disabled='none' aria-haspopup="dialog" aria-expanded="false" aria-controls="hs-full-screen-modal" data-hs-overlay="#hs-full-screen-modal" className="font-medium text-sm text-blue-500 pb-1 border-b-2 border-neutral-700 group-hover:border-blue-500 group-focus:border-blue-500 transition focus:outline-hidden">
+      <p className="mt-auto">
+        <span   className="font-medium text-sm text-blue-500 pb-1 border-b-2 border-neutral-700 group-hover:border-blue-500 group-focus:border-blue-500 transition focus:outline-hidden">
           Live demo
         </span>
-      </p> */}
+      </p>
     </a>
 
 
-    <a className="group w-full lg:w-[400px] h-[300px] relative  z-10   flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
+    <a className="group w-full lg:w-[400px] h-[300px] relative  z-10   flex flex-col bg-neutral-900 focus:outline-hidden  focus:before:opacity-100" href="#">
       <div className="w-full h-full  " style={{backgroundImage:'url(/projectImg/'+props.datas.img1, ...style}}></div>
 
     </a>
 
 
-    <a className="group w-full lg:w-[400px] h-[300px]   z-10  flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
+    <a className="group w-full lg:w-[400px] h-[300px]   z-10  flex flex-col bg-neutral-900 focus:outline-hidden  focus:before:opacity-100" href="#">
 
       <div className="w-full h-full rounded-r-md" style={{backgroundImage:'url(/projectImg/'+props.datas.img2, ...style}}></div>
     </a>
