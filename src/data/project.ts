@@ -7,7 +7,7 @@ export default interface Projects {
     img2:string,
     githubLink:string,
     liveDemo?:string,
-    stacks: JSXElement[],
+    stacks: string[],
     type: ProjectType
 }
 
@@ -22,8 +22,8 @@ export const datas : Projects[] = [
         img2:"/img/second.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
-        stacks: [],
-        type: "webApp"
+        stacks: ['vite.svg', 'vite.svg'],
+        type: "website"
     },
     {
         name:'Ravomanana',
@@ -32,7 +32,7 @@ export const datas : Projects[] = [
         img2:"/img/second.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
-        stacks: [],
+        stacks: ['vite.svg', 'vite.svg', 'vite.svg'],
         type: "webApp"
     }
 ]

@@ -34,7 +34,7 @@ function Project() {
         </div>
         {
           filteredProjects.map((filteredProjects, index) =>  <ProjectCard datas={filteredProjects} key={index} theme='dark'/>
-)
+          )
          
         }
           
