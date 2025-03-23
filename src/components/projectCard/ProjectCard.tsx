@@ -16,7 +16,7 @@ function ProjectCard(props:projects) {
    
     <div className=" mt-5 flex  flex-wrap  lg:min-w-[1204px]  lg:flex-row h-[300px] ms-center border border-neutral-700 divide-y lg:divide-y-0 lg:divide-x divide-neutral-700 rounded-xl">
    
-    <a className="group w-full lg:w-1/3 relative z-10 p-4 md:p-6 h-full flex flex-col bg-neutral-900 focus:outline-hidden  focus:before:opacity-100" href="#">
+    <a className="group rounded-l-md w-full lg:w-1/3 relative z-10 p-4 md:p-6 h-full flex flex-col bg-neutral-900 focus:outline-hidden  focus:before:opacity-100" href="#">
       <div className="mb-5">
 
 

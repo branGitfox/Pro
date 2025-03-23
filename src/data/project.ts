@@ -1,4 +1,4 @@
-import { JSXElement } from "@babel/types";
+
 
 export default interface Projects {
     name:string,
@@ -22,7 +22,7 @@ export const datas : Projects[] = [
         img2:"Full.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
-        stacks: ['vite.svg', 'vite.svg'],
+        stacks: ['react.svg', 'vite.svg'],
         type: "website"
     },
     {
@@ -32,7 +32,7 @@ export const datas : Projects[] = [
         img2:"Full.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
-        stacks: ['vite.svg', 'vite.svg', 'vite.svg'],
+        stacks: ['react.svg', 'vite.svg', 'vite.svg'],
         type: "webApp"
     }
 ]
