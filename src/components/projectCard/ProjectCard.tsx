@@ -2,7 +2,13 @@ import Projects from "../../data/project"
 
 type projects  = {
   datas:Projects,
-  theme?:'dark|light'
+  theme?:'dark' | 'light'
+}
+
+const style = {
+  backgroundPosition:'center',
+  backgroundSize:'cover',
+  backgroundRepeat:'no repeat'
 }
 
 function ProjectCard(props:projects) {
@@ -42,14 +48,15 @@ function ProjectCard(props:projects) {
     </a>
 
 
-    <a className="group relative z-10 p-2 h-full flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
+    <a className="group relative z-10  h-full flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
+    <div className="w-full h-full  rounded-md" style={{backgroundImage:'url(/vite.svg)', ...style}}></div>
 
     </a>
 
 
     <a className="group relative   z-10 h-full flex flex-col bg-neutral-900 focus:outline-hidden first:rounded-t-xl last:rounded-b-xl lg:first:rounded-l-xl lg:first:rounded-tr-none lg:last:rounded-r-xl lg:last:rounded-bl-none before:absolute before:inset-0 before:bg-linear-to-b hover:before:from-transparent hover:before:via-transparent hover:before:to-blue-500/10 before:via-80% focus:before:from-transparent focus:before:via-transparent focus:before:to-blue-500/10 before:-z-1 last:before:rounded-b-xl lg:first:before:rounded-s-xl lg:last:before:rounded-e-xl lg:last:before:rounded-bl-none before:opacity-0 hover:before:opacity-100 focus:before:opacity-100" href="#">
 
-      <div className="w-full h-full bg-red-500 rounded-md"></div>
+      <div className="w-full h-full " style={{backgroundImage:'url(/vite.svg)', ...style}}></div>
     </a>
 
   </div>

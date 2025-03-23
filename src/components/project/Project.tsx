@@ -3,7 +3,7 @@ import { useState } from "react"
 import Projects, { datas } from "../../data/project"
 import ProjectCard from "../projectCard/ProjectCard"
 function Project() {
-    const [projects, setProjets] = useState<Projects[]>(datas)
+    const [projects] = useState<Projects[]>(datas)
   return (
     <>
 
