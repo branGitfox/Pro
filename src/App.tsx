@@ -1,8 +1,10 @@
-
+import Project from "./components/project/Project"
 
 function App() {
   return (
-    <div>App</div>
+    <>
+        <Project/>
+    </>
   )
 }
 
