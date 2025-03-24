@@ -22,8 +22,8 @@ function Footer() {
                   not-placeholder-shown:pt-6
                   not-placeholder-shown:pb-2
                   autofill:pt-6
-                  autofill:pb-2" placeholder="Name">
-                  <label for="hs-tac-input-name" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                  autofill:pb-2" placeholder="Name"/>
+                  <label htmlFor="hs-tac-input-name" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
                     peer-focus:text-xs
                     peer-focus:-translate-y-1.5
                     peer-focus:text-neutral-400
@@ -39,8 +39,8 @@ function Footer() {
                   not-placeholder-shown:pt-6
                   not-placeholder-shown:pb-2
                   autofill:pt-6
-                  autofill:pb-2" placeholder="Email">
-                  <label for="hs-tac-input-email" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                  autofill:pb-2" placeholder="Email"/>
+                  <label htmlFor="hs-tac-input-email" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
                     peer-focus:text-xs
                     peer-focus:-translate-y-1.5
                     peer-focus:text-neutral-400
@@ -56,8 +56,8 @@ function Footer() {
                   not-placeholder-shown:pt-6
                   not-placeholder-shown:pb-2
                   autofill:pt-6
-                  autofill:pb-2" placeholder="Company">
-                  <label for="hs-tac-input-company" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                  autofill:pb-2" placeholder="Company"/>
+                  <label htmlFor="hs-tac-input-company" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
                     peer-focus:text-xs
                     peer-focus:-translate-y-1.5
                     peer-focus:text-neutral-400
@@ -73,8 +73,8 @@ function Footer() {
                   not-placeholder-shown:pt-6
                   not-placeholder-shown:pb-2
                   autofill:pt-6
-                  autofill:pb-2" placeholder="Phone">
-                  <label for="hs-tac-input-phone" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                  autofill:pb-2" placeholder="Phone"/>
+                  <label htmlFor="hs-tac-input-phone" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
                     peer-focus:text-xs
                     peer-focus:-translate-y-1.5
                     peer-focus:text-neutral-400
@@ -91,7 +91,7 @@ function Footer() {
                   not-placeholder-shown:pb-2
                   autofill:pt-6
                   autofill:pb-2" placeholder="This is a textarea placeholder" data-hs-textarea-auto-height></textarea>
-                  <label for="hs-tac-message" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
+                  <label htmlFor="hs-tac-message" className="absolute top-0 start-0 p-3 sm:p-4 h-full text-neutral-400 text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent peer-disabled:opacity-50 peer-disabled:pointer-events-none
                     peer-focus:text-xs
                     peer-focus:-translate-y-1.5
                     peer-focus:text-neutral-400
@@ -110,7 +110,7 @@ function Footer() {
                 <p className="mt-5">
                   <a className="group inline-flex items-center gap-x-2 py-2 px-3 bg-blue-500 font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden" href="#">
                     Submit
-                    <svg className="shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg className="shrink-0 size-4 transition " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
                     </svg>
@@ -132,7 +132,7 @@ function Footer() {
                 <h4 className="text-white font-semibold">Our address:</h4>
 
                 <address className="mt-1 text-neutral-400 text-sm not-italic">
-                  300 Bath Street, Tay House<br>
+                  300 Bath Street, Tay House<br/>
                   Glasgow G2 4JR, United Kingdom
                 </address>
               </div>
@@ -163,7 +163,7 @@ function Footer() {
                 <p className="mt-2">
                   <a className="group inline-flex items-center gap-x-2 font-medium text-sm text-blue-500 decoration-2 hover:underline focus:outline-hidden focus:underline" href="#">
                     Job openings
-                    <svg className="shrink-0 size-4 transition group-hover:translate-x-0.5 group-hover:translate-x-0 group-focus:translate-x-0.5 group-focus:translate-x-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg className="shrink-0 size-4 transition " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
                     </svg>
