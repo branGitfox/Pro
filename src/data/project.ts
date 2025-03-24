@@ -16,13 +16,13 @@ export type ProjectType= 'webApp'|'website'|'utils'
 
 export const datas : Projects[] = [
     {
-        name:'Ravomanana',
+        name:'Gestion d\'employés',
         description:"Lorem ipsum",
         img1:"GE.png",
         img2:"Full.png",
         githubLink:"https://github.com",
         liveDemo:"https://https://livedemo.com",
-        stacks: ['react.svg', 'vite.svg'],
+        stacks: ['php.svg', 'javascript.svg', 'ajax.svg', 'bootstrap.svg', 'mysql.svg', ],
         type: "website"
     },
     {
