@@ -7,8 +7,8 @@ function Header() {
       <div className="flex items-center justify-between">
         <div className="flex items-center">
  
-          <a className="flex-none rounded-md text-3xl inline-block font-bold text-white" href="https://preline.co/templates/agency/index.html" aria-label="Preline">
-            <img className="inline-block size-11 rounded-full" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80" alt="Avatar"/>
+          <a className="flex-none rounded-full  text-3xl inline-block overflow-y-hidden font-bold text-white" href="https://preline.co/templates/agency/index.html" aria-label="Preline">
+            <img className="inline-block size-11 hauto rounded-full" src="/me.jpg" alt="Avatar"/>
           </a>
 
         </div>

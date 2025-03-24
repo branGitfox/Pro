@@ -38,7 +38,7 @@ function About() {
     Obtention du diplome de Bacc serie D puis integré L'insititut Superieur Polytechnique de Madagascar (ISPM) en suivant le parcours Informatique de Gestion, de Genie Logiciel et inteligence Artificiel.
     </p>
     <button type="button" className="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-200 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none  ">
-      <img className="shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Avatar" />
+      <img className="shrink-0 size-4 rounded-full" src="/me.jpg" alt="Avatar" />
       Brandon Fidelin
     </button>
   </div>
@@ -67,7 +67,7 @@ function About() {
       Monté en niveau L2 de mon parcours puis suivi une formation de developpement web avec Certifiaction chez Digital Training Center (DTC) pendant une durée de 03 mois. Ensuite fait une stage de 02 mois pendant laquel j'ai pu developpé une application web de gestion d'employer et salaire.
     </p>
     <button type="button" className="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-200 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none  ">
-      <img className="shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Avatar" />
+      <img className="shrink-0 size-4 rounded-full" src="/me.jpg" alt="Avatar" />
       Brandon Fidelin
     </button>
   </div>
@@ -94,7 +94,7 @@ function About() {
       Monté en niveau L3 de mon parcours, stagiaire au Ministère du Travail, de L'Emplois, et de la FOnction Publique pour une durée de à 03 mois en vue d'obtention du Diplome de Licence.
     </p>
     <button type="button" className="mt-1 -ms-1 p-1 inline-flex items-center gap-x-2 text-xs rounded-lg border border-transparent text-gray-200 hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none  ">
-      <img className="shrink-0 size-4 rounded-full" src="https://images.unsplash.com/photo-1659482633369-9fe69af50bfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=3&w=320&h=320&q=80" alt="Avatar"/>
+      <img className="shrink-0 size-4 rounded-full" src="/me.jpg" alt="Avatar"/>
       Brandon Fidelin
     </button>
   </div>
