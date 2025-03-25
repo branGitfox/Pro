@@ -6,7 +6,7 @@ import Stack from "./components/stack/Stack"
 import Social from "./components/Social/Social"
 import About from "./components/about/About"
 import Footer from "./components/footer/Footer"
-
+import { ToastContainer } from "react-toastify"
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
     <Project/>
     <About/>
     <Footer/>
+
     </>
   )
 }

@@ -1,18 +1,17 @@
 
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
-i
+import {  toast, ToastContainer } from 'react-toastify';
 
 function Footer() {
   const [loader, setLoader] = useState<boolean>(false)
   const sendEmail = async (e:React.ChangeEvent<HTMLFormElement>)  => {
      e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
       setLoader(true)
-    await emailjs.sendForm('service_m0052xg', 'template_bypqpvc',e.target, 'Zt1TUCueO51qvJEol')
-       .then((result) => {
-           window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-       }).then(() => setLoader(false))
+    await emailjs.sendForm('service_m0052xg', 'template_bypqpvc',e.target, 'Zt1TUCueO51qvJEol').
+       then(() => setLoader(false))
        .then(() => toast.success('Votre message a bien été envoyé'))
+       .catch(() => toast.error("Verifier votre connexion internet"))
    }
 
 
@@ -92,7 +91,9 @@ function Footer() {
 
                 <p className="mt-5">
                   <button className="group inline-flex items-center gap-x-2 py-2 px-3 bg-blue-500 font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden" type='submit'>
-                    Envoyer
+                    {loader?(<div className="animate-spin inline-block size-6 border-3 border-current border-t-transparent text-cyan-600 rounded-full dark:text-cyan-500" role="status" aria-label="loading">
+  <span className="sr-only">Loading...</span>
+</div>):'Envoyer'}
                     <svg className="shrink-0 size-4 transition " xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
@@ -151,6 +152,7 @@ function Footer() {
         </div>
  
       </div>
+      <ToastContainer/>
     </div>
   )
 }
