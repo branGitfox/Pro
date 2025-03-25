@@ -6,7 +6,7 @@ import {  toast, ToastContainer } from 'react-toastify';
 function Footer() {
   const [loader, setLoader] = useState<boolean>(false)
   const sendEmail = async (e:React.ChangeEvent<HTMLFormElement>)  => {
-     e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+     e.preventDefault();  
       setLoader(true)
     await emailjs.sendForm('service_m0052xg', 'template_bypqpvc',e.target, 'Zt1TUCueO51qvJEol').
        then(() => setLoader(false))
