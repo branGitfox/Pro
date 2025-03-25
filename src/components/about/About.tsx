@@ -8,7 +8,7 @@ function About() {
    
       <div className="max-w-3xl mb-10 lg:mb-14">
         <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">A Propos</h2>
-        <p className="mt-1 text-neutral-400">Voici un resumé de mon parcours qui m'a permis de m'expertiser dans mon domaine.</p>
+        <p className="mt-1 text-neutral-400">Voici un resumé de mon parcours qui m'a permis de gagner des experiences et qui me rend unique et qualifié.</p>
       </div>
 
 
