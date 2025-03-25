@@ -33,7 +33,7 @@ function Project() {
            
         </div>
         {
-          filteredProjects.map((filteredProjects, index) =>  <ProjectCard datas={filteredProjects} key={index} theme='dark'/>
+          filteredProjects.reverse().map((filteredProjects, index) =>  <ProjectCard datas={filteredProjects} key={index} theme='dark'/>
           )
          
         }

@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa"
 import Projects from "../../data/project"
 
 type projects  = {
@@ -71,14 +72,12 @@ function ProjectCard(props:projects) {
                 <span className="text-blue-500">  - {props.datas.type}</span>
             </h2>
             {props.datas.stacks.map((Stack, index) => <img key={index} src={`/${Stack}`} className="inline mx-1" width={32} height={32}/>)}
-            <p className="mt-4 text-gray-600">
-                The "Eco-Tracker" project aims to create a web-based platform that encourages individuals to adopt
-                sustainable lifestyle choices and actively contribute to environmental conservation. The platform will
-                provide users with personalized tracking, education, and engagement features to empower them to make
-                eco-friendly decisions in various aspects of their lives.
+            <p className="mt-4 text-gray-200">
+              {props.datas.description}
             </p>
-            <div className="mt-8">
-                <a href="#" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Start Now</a>
+            <div className="mt-8 flex">
+                <a href={props.datas.liveDemo} className="bg-gray-700 text-gray-100 px-5 py-3 font-semibold rounded">Live Demo</a>
+                <a href={props.datas.liveDemo} className="border-1 inline border-gray-700 text-gray-100 px-5 py-3  ml-1 font-semibold rounded"><FaGithub size={20}/></a>
             </div>
         </div>
     </div>
