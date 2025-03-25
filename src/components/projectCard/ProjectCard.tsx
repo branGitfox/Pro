@@ -75,10 +75,14 @@ function ProjectCard(props:projects) {
             <p className="mt-4 text-gray-200">
               {props.datas.description}
             </p>
-            <div className="mt-8 flex">
+            {props.datas.githubLink==""?"":(    <div className="mt-8 flex">
+                {props.datas.liveDemo==""?"": 
                 <a href={props.datas.liveDemo} className="bg-gray-700 text-gray-100 px-5 py-3 font-semibold rounded">Live Demo</a>
-                <a href={props.datas.liveDemo} className="border-1 inline border-gray-700 text-gray-100 px-5 py-3  ml-1 font-semibold rounded"><FaGithub size={20}/></a>
-            </div>
+                
+                }
+                <a href={props.datas.githubLink} className="border-1 inline border-gray-700 text-gray-100 px-5 py-3  ml-1 font-semibold rounded"><FaGithub size={20}/></a>
+            </div>)}
+        
         </div>
     </div>
 </div>

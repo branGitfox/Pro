@@ -21,7 +21,7 @@ export const datas : Projects[] = [
         img1:"GE.png",
         img2:"Full.png",
         githubLink:"https://github.com/branGitfox/GestionEmployers",
-        liveDemo:"https://github.com/branGitfox/GestionEmployers",
+        liveDemo:"",
         stacks: ['php.svg', 'javascript.svg', 'ajax.svg', 'bootstrap.svg', 'mysql.svg'],
         type: "webApp"
     },
@@ -31,7 +31,7 @@ export const datas : Projects[] = [
         img1:"yummy.png",
         img2:"Full.png",
         githubLink:"https://github.com/branGitfox/yummy",
-        liveDemo:"https://github.com/branGitfox/yummy",
+        liveDemo:"",
         stacks: ['php.svg', 'mysql.svg', 'javascript.svg', 'bootstrap.svg'],
         type: "webApp"
     },
