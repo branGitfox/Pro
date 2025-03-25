@@ -5,6 +5,7 @@ import Project from "./components/project/Project"
 import Stack from "./components/stack/Stack"
 import Social from "./components/Social/Social"
 import About from "./components/about/About"
+import Footer from "./components/footer/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <Social/>
     <Project/>
     <About/>
+    <Footer/>
     </>
   )
 }
