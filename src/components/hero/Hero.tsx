@@ -2,7 +2,7 @@
 
 function Hero() {
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900" id="hero">
     <div className="max-w-5xl mx-auto px-4 xl:px-0 pt-24 lg:pt-32 pb-14">
       <h1 className="font-semibold text-white text-5xl md:text-6xl ">
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-500 clip">Brandon Fidelin:</span> transformer les idées en réalité

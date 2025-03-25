@@ -2,7 +2,7 @@
 
 function About() {
   return (
-    <div className="bg-neutral-900">
+    <div className="bg-neutral-900" id="exp">
 
     <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20  mx-auto">
    

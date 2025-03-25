@@ -1,3 +1,4 @@
+import { FaGithub } from "react-icons/fa"
 
 
 function Header() {
@@ -7,7 +8,7 @@ function Header() {
       <div className="flex items-center justify-between">
         <div className="flex items-center">
  
-          <a className="flex-none rounded-full  text-3xl inline-block overflow-y-hidden font-bold text-white" href="https://preline.co/templates/agency/index.html" aria-label="Preline">
+          <a className="flex-none rounded-full  text-3xl inline-block overflow-y-hidden font-bold text-white" href="" aria-label="Preline">
             <img className="inline-block size-11 hauto rounded-full" src="/me.jpg" alt="Avatar"/>
           </a>
 
@@ -31,14 +32,14 @@ function Header() {
   
       <div id="hs-navbar-floating-dark" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-floating-dark-collapse">
         <div className="flex flex-col md:flex-row md:items-center md:justify-end gap-y-3 py-2 md:py-0 md:ps-7">
-          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="https://preline.co/templates/agency/index.html" aria-current="page">Accueil</a>
-          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="#">Projects</a>
-          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="#">Experiences</a>
+          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="#" aria-current="page" id="hero">Accueil</a>
+          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="#Projet">Projects</a>
+          <a className="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="#exp">Experiences</a>
 
           <div className="hs-dropdown [--strategy:static] md:[--strategy:fixed] [--adaptive:none] md:[--adaptive:adaptive] [--is-collapse:true] md:[--is-collapse:false] pe-3 ps-px sm:px-3 md:py-4">
 
-            <a className="group inline-flex items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-blue-500 to-cyan-500 font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden" href="https://preline.co/templates/agency/index.html#contact">
-              Download CV
+            <a className="group inline-flex items-center gap-x-2 py-2 px-3 bg-gradient-to-r from-blue-500 to-cyan-500 font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden" target="_blank" href="https://github.com/Brangitfox">
+             <FaGithub size={20}/>
             </a>
           </div>
         </div>
