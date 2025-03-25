@@ -1,18 +1,18 @@
 
 import emailjs from 'emailjs-com';
-
+import { useState } from 'react';
+i
 
 function Footer() {
-
-  const sendEmail =  (e:React.ChangeEvent<HTMLFormElement>)  => {
+  const [loader, setLoader] = useState<boolean>(false)
+  const sendEmail = async (e:React.ChangeEvent<HTMLFormElement>)  => {
      e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
- 
-     emailjs.sendForm('service_m0052xg', 'template_bypqpvc',e.target, 'Zt1TUCueO51qvJEol')
+      setLoader(true)
+    await emailjs.sendForm('service_m0052xg', 'template_bypqpvc',e.target, 'Zt1TUCueO51qvJEol')
        .then((result) => {
            window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
-       }, (error) => {
-           console.log(error.text);
-       });
+       }).then(() => setLoader(false))
+       .then(() => toast.success('Votre message a bien été envoyé'))
    }
 
 
