@@ -14,7 +14,7 @@ function Hero() {
       <a className="group inline-flex items-center mt-8 gap-x-2 py-2 px-3 bg-gradient-to-r from-blue-400 to-cyan-500 font-medium text-sm text-neutral-300 mr-2 focus:outline-hidden rounded-sm" href="#contact">
        Me Contacter
       </a>
-      <a className="group inline-flex items-center mt-8 gap-x-2 py-2 px-3 border-cyan-500 border-1 font-medium text-sm text-neutral-300  hover:bg-cyan-500 rounded-sm" href="https://preline.co/templates/agency/index.html#contact">
+      <a className="group inline-flex items-center mt-8 gap-x-2 py-2 px-3 border-cyan-500 border-1 font-medium text-sm text-neutral-300  hover:bg-cyan-500 rounded-sm" href="/cv.PNG" download={'brandon'}>
         Téléchager mon CV
       </a>
     </div>

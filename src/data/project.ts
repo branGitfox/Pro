@@ -56,6 +56,16 @@ export const datas : Projects[] = [
         stacks: ['react.svg', 'redux.svg', 'tailwindcss.svg'],
         type: "website"
     },
+    {
+        name:'PHP-NTL',
+        description:"PHP-NTL est une bibliothèque PHP puissante qui permet de convertir les nombres en leur représentation littérale. Elle prend en charge les nombres allant de 0 à 999 999 999 999,  des langues française et anglaise, ce qui permet de l'utiliser facilement dans des projets multilingues. Cette bibliothèque offre une grande flexibilité et est idéale pour des applications nécessitant des conversions de nombres en texte, que ce soit pour des factures, des rapports financiers ou tout autre système où la représentation écrite des chiffres est nécessaire.",
+        img1:"ntl.png",
+        img2:"Full.png",
+        githubLink:"https://github.com/branGitfox/IP-Tracker",
+        liveDemo:"https://github.com/branGitfox/PHP-NumberToLetter-library",
+        stacks: ['php.svg', 'javascript.svg'],
+        type: "utils"
+    },
 
     {
         name:'IP-Tracker',
