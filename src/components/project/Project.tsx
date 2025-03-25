@@ -22,7 +22,7 @@ function Project() {
 
         <div className="max-w-3xl mb-10 lg:mb-14">
           <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">Mes Projets</h2>
-          <p className="mt-1 text-neutral-400">Voici quelques projets que je fait personnel et collaboratif avec lesquel j'ai pu m'expertiser dans mon domaine et resoudre des problemes specifiques.</p>
+          <p className="mt-1 text-neutral-400">Voici quelques projets personnels et collaboratifs avec lesquels j'ai pu m'expertiser dans mon domaine et résoudre des problèmes spécifiques.</p>
         </div>
         <div className="items-center justify-center grid grid-cols-3 mx-auto  bg-transparent border-1  mb-5 h-10 rounded-full flex-col z-50">
             <button onClick={() => changeFilter('webApp')} className={`${filter==='webApp'?'bg-slate-600':'bg-slate-700'} text-neutral-300 h-full px-3 rounded-l-full  ` }>Application Web</button>
