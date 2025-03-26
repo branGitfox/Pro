@@ -80,7 +80,7 @@ function Footer() {
                     peer-focus:text-neutral-400
                     peer-not-placeholder-shown:text-xs
                     peer-not-placeholder-shown:-translate-y-1.5
-                    peer-not-placeholder-shown:text-neutral-400" >Parle moi de ton projet</label>
+                    peer-not-placeholder-shown:text-neutral-400" >Parlez-moi de votre projet</label>
                 </div>
      
               </div>
