@@ -75,6 +75,18 @@ export const datas : Projects[] = [
         stacks: ['react.svg', 'typescript.svg', 'tailwindcss.svg'],
         type: "utils"
     },
+
+
+    {
+        name: 'GUI',
+        description: "GUI vous simplifie la vie en vous offrant des composants pré-stylés pour afficher vos statistiques GitHub en temps réel. le package est sur NPM et installable dans vos projet react en un seul click",
+        img1: "gui.png",
+        img2: "gui.png",
+        githubLink: "https://github.com/branGitfox/GUI",
+        liveDemo: "https://gui-smoky.vercel.app/",
+        stacks: ['react.svg', 'typescript.svg', 'tailwindcss.svg'],
+        type: "utils"
+    },
     {
         name: 'En cours de développement',
         description: "Application web desktop de gestion d'école qui permet de gérer les élèves, inscriptions, écolages, droits, notes. Gérer les personnels, professeurs, salaires et avances, informations historifiées ; les flux bancaires et flux mobile money de l'école. Pour finir, des statistiques complètes des données.",
